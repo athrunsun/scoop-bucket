@@ -6,27 +6,30 @@
         "64bit": {
             "url": [
                 "https://dl.google.com/release2/chrome/AOnhhC4BPy4d_63.0.3239.108/63.0.3239.108_chrome_installer.exe#/dl.7z",
-                ""
+                "https://raw.github.com/athrunsun/scoop-binary/master/scripts/chrome.ps1"
             ],
             "hash": [
                 "F122B4E636B6A137ADB178B12DEB1E568CE855EBD6F66143F393B48701ED4E8A",
-                ""
+                "5df98771fe930f229a513b44b41e08f471e10865c805a9c5c31cdf79186b1e3a"
             ]
         },
         "32bit": {
             "url": [
                 "https://dl.google.com/release2/chrome/APl-w3OhVo5i_63.0.3239.108/63.0.3239.108_chrome_installer.exe#/dl.7z",
-                ""
+                "https://raw.github.com/athrunsun/scoop-binary/master/scripts/chrome.ps1"
             ],
             "hash": [
                 "AACD95B9BA642251C8A9C43C5E26B16A711E238611B21EF841A7E08A0F4DA9D7",
-                ""
+                "5df98771fe930f229a513b44b41e08f471e10865c805a9c5c31cdf79186b1e3a"
             ]
         }
     },
-    "pre_install": "echo '7z x \"$dir\\chrome.7z\" -o\"$dir\\\" -y`nrm \"$dir\\chrome.7z\"`nrobocopy \"Chrome-bin\" \"$dir\" /e /move`nGet-ChildItem -Path source -Recurse -File | Move-Item -Destination dest' | sc \"$dir\\install.ps1\"",
     "installer": {
-        "script": "install.ps1"
+        "file": "chrome.ps1",
+        "args": [
+            "$dir",
+            "63.0.3239.108"
+        ]
     },
     "bin": "chrome.exe",
     "shortcuts": [

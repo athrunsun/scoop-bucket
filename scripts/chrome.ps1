@@ -10,4 +10,4 @@ Move-Item -Path "$dir\Chrome-bin\chrome.exe" -Destination "$dir\chrome.exe"
 # https://stackoverflow.com/questions/5432290/how-to-use-powershell-copy-item-and-keep-structure
 Get-ChildItem -Path "$dir\Chrome-bin\$version" | Copy-Item -Destination "$dir" -Recurse -Container
 Get-ChildItem -Path "$dir\Chrome-bin\*" -Recurse -Force | Remove-Item -Recurse -Force
-Remove-Item -Path "$dir\Chrome-bin" -Force
+Remove-Item -Path "$dir\Chrome-bin" -Recurse -Force

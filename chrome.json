@@ -1,0 +1,38 @@
+{
+    "homepage": "https://www.google.com/chrome/",
+    "version": "63.0.3239.108",
+    "notes": "Check latest version at https://api.shuax.com/tools/getchrome",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://dl.google.com/release2/chrome/AOnhhC4BPy4d_63.0.3239.108/63.0.3239.108_chrome_installer.exe#/dl.7z",
+                ""
+            ],
+            "hash": [
+                "F122B4E636B6A137ADB178B12DEB1E568CE855EBD6F66143F393B48701ED4E8A",
+                ""
+            ]
+        },
+        "32bit": {
+            "url": [
+                "https://dl.google.com/release2/chrome/APl-w3OhVo5i_63.0.3239.108/63.0.3239.108_chrome_installer.exe#/dl.7z",
+                ""
+            ],
+            "hash": [
+                "AACD95B9BA642251C8A9C43C5E26B16A711E238611B21EF841A7E08A0F4DA9D7",
+                ""
+            ]
+        }
+    },
+    "pre_install": "echo '7z x \"$dir\\chrome.7z\" -o\"$dir\\\" -y`nrm \"$dir\\chrome.7z\"`nrobocopy \"Chrome-bin\" \"$dir\" /e /move`nGet-ChildItem -Path source -Recurse -File | Move-Item -Destination dest' | sc \"$dir\\install.ps1\"",
+    "installer": {
+        "script": "install.ps1"
+    },
+    "bin": "chrome.exe",
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "Google Chrome"
+        ]
+    ]
+}

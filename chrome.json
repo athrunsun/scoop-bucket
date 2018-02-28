@@ -1,25 +1,25 @@
 {
     "homepage": "https://www.google.com/chrome/",
-    "version": "63.0.3239.108",
+    "version": "64.0.3282.186",
     "notes": "Check latest version at https://api.shuax.com/tools/getchrome",
     "architecture": {
         "64bit": {
             "url": [
-                "https://dl.google.com/release2/chrome/AOnhhC4BPy4d_63.0.3239.108/63.0.3239.108_chrome_installer.exe#/dl.7z",
-                "https://raw.github.com/athrunsun/scoop-binary/master/scripts/chrome.ps1"
+                "https://dl.google.com/release2/chrome/APihnfecX-7w_64.0.3282.186/64.0.3282.186_chrome_installer.exe#/dl.7z",
+                "https://raw.github.com/athrunsun/scoop-extra/master/scripts/chrome.ps1"
             ],
             "hash": [
-                "F122B4E636B6A137ADB178B12DEB1E568CE855EBD6F66143F393B48701ED4E8A",
+                "862EC0026BCED0EAE8A07BCA6A42544A7E7C79B70ADEB34D7B627AFBCF8DD393",
                 "95ef8e013b8de6494eb75d653fdefd4c56ef2dab135d4afa7f3ce1321e6681b5"
             ]
         },
         "32bit": {
             "url": [
-                "https://dl.google.com/release2/chrome/APl-w3OhVo5i_63.0.3239.108/63.0.3239.108_chrome_installer.exe#/dl.7z",
-                "https://raw.github.com/athrunsun/scoop-binary/master/scripts/chrome.ps1"
+                "https://dl.google.com/release2/chrome/YZjHRMeIiWs_64.0.3282.186/64.0.3282.186_chrome_installer.exe#/dl.7z",
+                "https://raw.github.com/athrunsun/scoop-extra/master/scripts/chrome.ps1"
             ],
             "hash": [
-                "AACD95B9BA642251C8A9C43C5E26B16A711E238611B21EF841A7E08A0F4DA9D7",
+                "0ED08A328D3B5EB77BDE06A565E3C77BEEF41AEE9861A02561AE096626233704",
                 "95ef8e013b8de6494eb75d653fdefd4c56ef2dab135d4afa7f3ce1321e6681b5"
             ]
         }
@@ -28,7 +28,7 @@
         "file": "chrome.ps1",
         "args": [
             "$dir",
-            "63.0.3239.108"
+            "$version"
         ]
     },
     "bin": "chrome.exe",

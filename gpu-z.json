@@ -1,0 +1,13 @@
+{
+    "homepage": "https://www.techpowerup.com/gpuz/",
+    "version": "2.8.0",
+    "url": "http://us1-dl.techpowerup.com/files/SgGXQ3aPFwn0IjnX5NPGlQ/1519916473/GPU-Z.2.8.0.exe",
+    "hash": "a3a295b16eabad76813e4c302ecff059f5143a131065bd0a7855aa5ab7284399",
+    "bin": "GPU-Z.2.8.0.exe",
+    "shortcuts": [
+        [
+            "gpu-z.exe",
+            "GPU-Z"
+        ]
+    ]
+}

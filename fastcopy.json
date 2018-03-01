@@ -1,0 +1,21 @@
+{
+    "homepage": "https://ipmsg.org/tools/fastcopy.html.en",
+    "version": "3.41",
+    "architecture": {
+        "64bit": {
+            "url": "http://dforest.watch.impress.co.jp/library/f/fastcopy/11575/FastCopy341_x64.zip",
+            "hash": "ee31a89229e9f9625626dddf3af944e23f24fe214e5abfcdce2067bc386ef506"
+        },
+        "32bit": {
+            "url": "http://dforest.watch.impress.co.jp/library/f/fastcopy/11574/FastCopy341.zip",
+            "hash": "976059dbc074b51923640d65fa295ffaa3f8ceacb261b2314f170ab9b5834f34"
+        }
+    },
+    "bin": "FastCopy.exe",
+    "shortcuts": [
+        [
+            "fastcopy.exe",
+            "FastCopy"
+        ]
+    ]
+}

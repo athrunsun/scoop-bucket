@@ -1,0 +1,13 @@
+{
+    "homepage": "http://aezay.dk/aezay/ssdz/",
+    "version": "16.09.09b",
+    "url": "http://aezay.dk/aezay/ssdz/SSD-Z_16.09.09wip.zip",
+    "hash": "16c047a85c7aea25b7793cf7e36314396604cda92573b862476ad31e5c574109",
+    "bin": "SSD-Z.exe",
+    "shortcuts": [
+        [
+            "ssd-z.exe",
+            "SSD-Z"
+        ]
+    ]
+}

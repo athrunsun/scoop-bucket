@@ -1,0 +1,13 @@
+{
+    "homepage": "https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/",
+    "version": "1.9.8.0",
+    "url": "https://www.pendrivelinux.com/downloads/Universal-USB-Installer/Universal-USB-Installer-1.9.8.0.exe",
+    "hash": "2bae7113bda61e3f9a8c03c2df96c90123a37dbbdede71116cb2b7ddb47f32bc",
+    "bin": "Universal-USB-Installer-1.9.8.0.exe",
+    "shortcuts": [
+        [
+            "uui.exe",
+            "Universal-USB-Installer"
+        ]
+    ]
+}

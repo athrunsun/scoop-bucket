@@ -1,0 +1,25 @@
+{
+    "homepage": "https://www.centbrowser.com",
+    "description": "The Most Feature Rich Chromium",
+    "notes": "This is the portable version, user data directory is created in the same installation folder.",
+    "version": "3.2.4.23",
+    "architecture": {
+        "64bit": {
+            "url": "http://static.centbrowser.com/installer_64/centbrowser_3.2.4.23_x64_portable.exe#/dl.7z",
+            "hash": "722421583d11ccb3175986b3e9330f804d254822d7380e55ed3d68b302aa0acb"
+        },
+        "32bit": {
+            "url": "http://static.centbrowser.com/installer_32/centbrowser_3.2.4.23_portable.exe#/dl.7z",
+            "hash": "6fceb49c80424897036c48ce1c39a36b74a881197aeb9fac91887d15ae95b076"
+        }
+    },
+    "bin": [
+        ["chrome.exe", "centbrowser_portable"]
+    ],
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "CentBrowserPortable"
+        ]
+    ]
+}

@@ -1,7 +1,8 @@
 {
     "homepage": "https://www.google.com/chrome/",
-    "version": "64.0.3282.186",
+    "description": "One fast, simple, and secure browser for all your devices",
     "notes": "Check latest version at https://api.shuax.com/tools/getchrome",
+    "version": "64.0.3282.186",
     "architecture": {
         "64bit": {
             "url": [

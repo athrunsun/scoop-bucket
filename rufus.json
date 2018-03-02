@@ -1,12 +1,15 @@
 {
     "homepage": "https://rufus.akeo.ie/",
+    "description": "Create bootable USB drives the easy way",
     "version": "2.18",
     "url": "https://rufus.akeo.ie/downloads/rufus-2.18p.exe",
     "hash": "e82abd7f2c8f8c866141634a1ce10da8ebf3c58b68cb2eaa351345777bb3f67c",
-    "bin": "rufus-2.18p.exe",
+    "bin": [
+        ["rufus-2.18p.exe", "rufus"]
+    ],
     "shortcuts": [
         [
-            "rufus.exe",
+            "rufus-2.18p.exe",
             "Rufus"
         ]
     ]

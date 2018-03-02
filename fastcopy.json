@@ -1,5 +1,6 @@
 {
     "homepage": "https://ipmsg.org/tools/fastcopy.html.en",
+    "description": "The Fastest Copy/Delete Software on Windows.",
     "version": "3.41",
     "architecture": {
         "64bit": {
@@ -11,10 +12,12 @@
             "hash": "976059dbc074b51923640d65fa295ffaa3f8ceacb261b2314f170ab9b5834f34"
         }
     },
-    "bin": "FastCopy.exe",
+    "bin": [
+        ["FastCopy.exe", "fastcopy"]
+    ],
     "shortcuts": [
         [
-            "fastcopy.exe",
+            "FastCopy.exe",
             "FastCopy"
         ]
     ]

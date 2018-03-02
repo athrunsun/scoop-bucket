@@ -11,10 +11,12 @@
             "hash": "04961fdfee8b9f581ce073c7929553704e9ac80ccabeb95f3dcef2478d7b9882"
         }
     },
-    "bin": "FileTypesMan.exe",
+    "bin": [
+        ["FileTypesMan.exe", "filetypesman.exe"]
+    ],
     "shortcuts": [
         [
-            "filetypesman.exe",
+            "FileTypesMan.exe",
             "FileTypesMan"
         ]
     ]

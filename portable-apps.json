@@ -4,7 +4,7 @@
     "notes": "Please DO NOT upgrade this app using scoop! You will lost all installed portable apps by doing so!",
     "version": "14.4.3",
     "url": [
-        "http://download3.portableapps.com/portableapps/pacplatform/PortableApps.com_Platform_Setup_14.4.3.paf.exe",
+        "http://download3.portableapps.com/portableapps/pacplatform/PortableApps.com_Platform_Setup_14.4.3.paf.exe#/dl.7z",
         "https://raw.github.com/athrunsun/scoop-extra/master/scripts/portableapps.ps1"
     ],
     "hash": [

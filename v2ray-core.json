@@ -12,11 +12,5 @@
             "hash": "676762f8961f1b246dc82096d012ea9aa75148cc6b6770349b4f9132fe44c160"
         }
     },
-    "bin": "v2ray.exe",
-    "shortcuts": [
-        [
-            "v2ray.exe",
-            "V2Ray"
-        ]
-    ]
+    "bin": "v2ray.exe"
 }

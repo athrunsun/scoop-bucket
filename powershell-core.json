@@ -1,0 +1,14 @@
+{
+    "homepage": "https://github.com/PowerShell/PowerShell",
+    "description": "PowerShell for every system",
+    "version": "6.1.2",
+    "url": "https://github.com/PowerShell/PowerShell/releases/download/v6.1.2/PowerShell-6.1.2-win-x64.zip",
+    "hash": "ee7c46f2abd1cdd775c727719c12a428d47aa1c087bc849a09ae18e89982d420",
+    "bin": "pwsh.exe",
+    "shortcuts": [
+        [
+            "pwsh.exe",
+            "PowerShell Core"
+        ]
+    ]
+}

@@ -2,29 +2,15 @@
     "homepage": "https://www.google.com/chrome/",
     "description": "One fast, simple, and secure browser for all your devices",
     "notes": "This installation of Google Chrome is not able to update itself since Google updater is not installed.",
-    "version": "70.0.3538.102",
-    "architecture": {
-        "64bit": {
-            "url": [
-                "https://dl.google.com/release2/chrome/ALEkMNj_GPKq_70.0.3538.102/70.0.3538.102_chrome_installer.exe#/dl.7z",
-                "https://raw.github.com/athrunsun/scoop-extra/master/scripts/google-chrome.ps1"
-            ],
-            "hash": [
-                "626E74E485D8AFD1BEE9A8CB4A4DACB2321F46A54283D772C118230289FE103C",
-                "95ef8e013b8de6494eb75d653fdefd4c56ef2dab135d4afa7f3ce1321e6681b5"
-            ]
-        },
-        "32bit": {
-            "url": [
-                "https://dl.google.com/release2/chrome/I78EAR3ztkg_70.0.3538.102/70.0.3538.102_chrome_installer.exe#/dl.7z",
-                "https://raw.github.com/athrunsun/scoop-extra/master/scripts/google-chrome.ps1"
-            ],
-            "hash": [
-                "10FAECF2CEFF794779D69AF27E0BD22DF6B2BDDB38831C92F351DB8FD2E1F5C0",
-                "95ef8e013b8de6494eb75d653fdefd4c56ef2dab135d4afa7f3ce1321e6681b5"
-            ]
-        }
-    },
+    "version": "71.0.3578.98",
+    "url": [
+        "https://dl.google.com/release2/chrome/AO196ErPGQUF_71.0.3578.98/71.0.3578.98_chrome_installer.exe#/dl.7z",
+        "https://raw.github.com/athrunsun/scoop-extra/master/scripts/google-chrome.ps1"
+    ],
+    "hash": [
+        "83593E11DC758A06F82911EB604BD41DB66B15622BEFE5E783B9447BD29338FB",
+        "95ef8e013b8de6494eb75d653fdefd4c56ef2dab135d4afa7f3ce1321e6681b5"
+    ],
     "installer": {
         "file": "google-chrome.ps1",
         "args": [

@@ -1,15 +1,15 @@
 {
-    "homepage": "https://rufus.akeo.ie/",
-    "description": "Create bootable USB drives the easy way",
-    "version": "2.18",
-    "url": "https://rufus.akeo.ie/downloads/rufus-2.18p.exe",
-    "hash": "e82abd7f2c8f8c866141634a1ce10da8ebf3c58b68cb2eaa351345777bb3f67c",
+    "homepage": "https://github.com/pbatard/rufus",
+    "description": "The Reliable USB Formatting Utility",
+    "version": "3.5",
+    "url": "https://github.com/pbatard/rufus/releases/download/v3.5/rufus-3.5p.exe",
+    "hash": "9eceb45d0337dc070f147820048f3bf6279a771b56b814db6f696e6012dbbf20",
     "bin": [
-        ["rufus-2.18p.exe", "rufus"]
+        ["rufus-3.5p.exe", "rufus"]
     ],
     "shortcuts": [
         [
-            "rufus-2.18p.exe",
+            "rufus-3.5p.exe",
             "Rufus"
         ]
     ]

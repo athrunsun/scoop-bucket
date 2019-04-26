@@ -1,21 +1,18 @@
 {
     "homepage": "https://www.google.com/chrome/",
-    "description": "One fast, simple, and secure browser for all your devices",
+    "description": "Fast, secure, and free web browser, built for the modern web.",
     "notes": "This installation of Google Chrome is not able to update itself since Google updater is not installed.",
-    "version": "73.0.3683.75",
-    "url": [
-        "https://dl.google.com/release2/chrome/MGSyncA_l44_73.0.3683.75/73.0.3683.75_chrome_installer.exe#/dl.7z",
-        "https://raw.github.com/athrunsun/scoop-extra/master/scripts/google-chrome.ps1"
-    ],
-    "hash": [
-        "A9689B1AC0B19932F4F42195988B7D7C554F7C006FCB0C7DD6C0F53CCF8091DF",
-        "95ef8e013b8de6494eb75d653fdefd4c56ef2dab135d4afa7f3ce1321e6681b5"
-    ],
+    "version": "74.0.3729.108",
+    "url": "https://dl.google.com/release2/chrome/AMvTpHhVXHb3_74.0.3729.108/74.0.3729.108_chrome_installer.exe#/dl.7z",
+    "hash": "80D040EC70B493ED66E5D525DF35487C7D4EF2B8FB2ABF1C5BC9FC559E046FFB",
     "installer": {
-        "file": "google-chrome.ps1",
-        "args": [
-            "$dir",
-            "$version"
+        "script": [
+            "$output = 7z x $dir\\chrome.7z \"-o$dir\"",
+            "rm $dir\\chrome.7z",
+            "Move-Item -Path \"$dir\\Chrome-bin\\chrome.exe\" -Destination \"$dir\\chrome.exe\"",
+            "Get-ChildItem -Path \"$dir\\Chrome-bin\\$version\" | Copy-Item -Destination \"$dir\" -Recurse -Container",
+            "Get-ChildItem -Path \"$dir\\Chrome-bin\\*\" -Recurse -Force | Remove-Item -Recurse -Force",
+            "Remove-Item -Path \"$dir\\Chrome-bin\" -Recurse -Force"
         ]
     },
     "bin": "chrome.exe",
@@ -24,5 +21,12 @@
             "chrome.exe",
             "Google Chrome"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://www.chrome-portable.com/index.php/google-chrome-offline-installer/",
+        "regex": "(?sm)Version:\\s+([\\d\\.]+).*release2/chrome/(?<32>[\\w-]+)_\\d+.*release2/chrome/(?<64>[\\w-]+)_\\d+.*Download 64-bit"
+    },
+    "autoupdate": {
+        "url": "https://dl.google.com/release2/chrome/$match64_$version/$version_chrome_installer.exe#/dl.7z"
+    }
 }

@@ -2,9 +2,9 @@
     "homepage": "https://www.google.com/chrome/",
     "description": "Fast, secure, and free web browser, built for the modern web.",
     "notes": "This installation of Google Chrome is not able to update itself since Google updater is not installed.",
-    "version": "74.0.3729.108",
-    "url": "https://dl.google.com/release2/chrome/AMvTpHhVXHb3_74.0.3729.108/74.0.3729.108_chrome_installer.exe#/dl.7z",
-    "hash": "80D040EC70B493ED66E5D525DF35487C7D4EF2B8FB2ABF1C5BC9FC559E046FFB",
+    "version": "74.0.3729.131",
+    "url": "https://dl.google.com/release2/chrome/VgjlGsaFfgA_74.0.3729.131/74.0.3729.131_chrome_installer.exe#/dl.7z",
+    "hash": "AAFC8B370770ED51E2EDE16731E303347EE7184376C54D09D2D1FB44A95627A1",
     "installer": {
         "script": [
             "$output = 7z x $dir\\chrome.7z \"-o$dir\"",

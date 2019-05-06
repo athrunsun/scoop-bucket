@@ -16,7 +16,7 @@
     "bin": [
         [
             "chrome.exe",
-            "centbrowser_portable.exe"
+            "centbrowser_portable"
         ]
     ],
     "shortcuts": [
@@ -25,6 +25,7 @@
             "CentBrowserPortable"
         ]
     ],
+    "persist": "User Data",
     "checkver": {
         "url": "https://www.centbrowser.com/history.html",
         "regex": "<p\\s*id=\"([\\d\\.]+)\">v[\\d\\.]+\\s*<i>\\[[\\d\\-]+\\]<\\/i><\\/p>"

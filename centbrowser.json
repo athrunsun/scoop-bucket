@@ -2,15 +2,15 @@
     "homepage": "https://www.centbrowser.com",
     "description": "The Most Feature Rich Chromium",
     "notes": "This extracts app contents from the exe installer.",
-    "version": "3.2.4.23",
+    "version": "3.9.2.45",
     "architecture": {
         "64bit": {
-            "url": "http://static.centbrowser.com/installer_64/centbrowser_3.2.4.23_x64.exe#/dl.7z",
-            "hash": "3498a8a204c8abe54e457ef285ddc06c81df8da37ed0bd1853ea180157723ddf"
+            "url": "http://static.centbrowser.com/installer_64/centbrowser_3.9.2.45_x64.exe#/dl.7z",
+            "hash": "e39fe9b33030f70108ddfb5d60459cc635ef1989c643f749f99889af2c033503"
         },
         "32bit": {
-            "url": "http://static.centbrowser.com/installer_32/centbrowser_3.2.4.23.exe#/dl.7z",
-            "hash": "32502cfd57357578bbfea2759a86a92e4eeaab8a84ad707357b86a8dc7db7316"
+            "url": "http://static.centbrowser.com/installer_32/centbrowser_3.9.2.45.exe#/dl.7z",
+            "hash": "c2b181a2d92f100046b95180aa7258d56c3716c7a5a309fdf8726c2ccada759e"
         }
     },
     "installer": {
@@ -24,7 +24,10 @@
         ]
     },
     "bin": [
-        ["chrome.exe", "centbrowser"]
+        [
+            "chrome.exe",
+            "centbrowser"
+        ]
     ],
     "shortcuts": [
         [

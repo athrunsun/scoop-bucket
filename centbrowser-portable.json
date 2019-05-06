@@ -2,24 +2,41 @@
     "homepage": "https://www.centbrowser.com",
     "description": "The Most Feature Rich Chromium",
     "notes": "This is the portable version, user data directory is created in the same installation folder.",
-    "version": "3.2.4.23",
+    "version": "3.9.2.45",
     "architecture": {
         "64bit": {
-            "url": "http://static.centbrowser.com/installer_64/centbrowser_3.2.4.23_x64_portable.exe#/dl.7z",
-            "hash": "722421583d11ccb3175986b3e9330f804d254822d7380e55ed3d68b302aa0acb"
+            "url": "http://static.centbrowser.com/installer_64/centbrowser_3.9.2.45_x64_portable.exe#/dl.7z",
+            "hash": "a7ade8d9fb84b4b36377cddcd3e41e9cf93532d405caa76d2f4defd8ccbb5389"
         },
         "32bit": {
-            "url": "http://static.centbrowser.com/installer_32/centbrowser_3.2.4.23_portable.exe#/dl.7z",
-            "hash": "6fceb49c80424897036c48ce1c39a36b74a881197aeb9fac91887d15ae95b076"
+            "url": "http://static.centbrowser.com/installer_32/centbrowser_3.9.2.45_portable.exe#/dl.7z",
+            "hash": "952cb3467726f6fd6ddb200695c560f6261cec6ef6d2bb8f59debf2e00ea232a"
         }
     },
     "bin": [
-        ["chrome.exe", "centbrowser_portable"]
+        [
+            "chrome.exe",
+            "centbrowser_portable.exe"
+        ]
     ],
     "shortcuts": [
         [
             "chrome.exe",
             "CentBrowserPortable"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://www.centbrowser.com/history.html",
+        "regex": "<p\\s*id=\"([\\d\\.]+)\">v[\\d\\.]+\\s*<i>\\[[\\d\\-]+\\]<\\/i><\\/p>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://static.centbrowser.com/installer_64/centbrowser_$version_x64_portable.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "http://static.centbrowser.com/installer_32/centbrowser_$version_portable.exe#/dl.7z"
+            }
+        }
+    }
 }

@@ -1,10 +1,18 @@
 {
-    "homepage": "https://www.google.com/chrome/",
+    "homepage": "https://www.google.com/chrome",
     "description": "Fast, secure, and free web browser, built for the modern web.",
     "notes": "This installation of Google Chrome is not able to update itself since Google updater is not installed.",
-    "version": "74.0.3729.131",
-    "url": "https://dl.google.com/release2/chrome/VgjlGsaFfgA_74.0.3729.131/74.0.3729.131_chrome_installer.exe#/dl.7z",
-    "hash": "AAFC8B370770ED51E2EDE16731E303347EE7184376C54D09D2D1FB44A95627A1",
+    "version": "74.0.3729.169",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.google.com/release2/chrome/AJhW7KKKIGp-_74.0.3729.169/74.0.3729.169_chrome_installer.exe#/dl.7z",
+            "hash": "421781dc06e31e96f0e8c79dcb0f27090840dd5f56a2b825ba360dc07417b5d5"
+        },
+        "32bit": {
+            "url": "https://dl.google.com/release2/chrome/Om7Ybo6GeCQ_74.0.3729.169/74.0.3729.169_chrome_installer.exe#/dl.7z",
+            "hash": "346193D74185ED8B3F0318852A46374409E2AE601E43FF37039E7E587E2422B8"
+        }
+    },
     "installer": {
         "script": [
             "$output = 7z x $dir\\chrome.7z \"-o$dir\"",
@@ -27,6 +35,13 @@
         "regex": "(?sm)Version:\\s+([\\d\\.]+).*release2/chrome/(?<32>[\\w-]+)_\\d+.*release2/chrome/(?<64>[\\w-]+)_\\d+.*Download 64-bit"
     },
     "autoupdate": {
-        "url": "https://dl.google.com/release2/chrome/$match64_$version/$version_chrome_installer.exe#/dl.7z"
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.google.com/release2/chrome/$match64_$version/$version_chrome_installer.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://dl.google.com/release2/chrome/$match32_$version/$version_chrome_installer.exe#/dl.7z"
+            }
+        }
     }
 }

@@ -4,4 +4,4 @@ jobs:
           vmImage: 'windows-2019'
       steps:
           - pwsh: pwd
-          - pwsh: cd $env:BUILD_REPOSITORY_LOCALPATH
+          - pwsh: git status

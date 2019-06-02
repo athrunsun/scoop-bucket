@@ -1,5 +1,5 @@
 jobs:
-    - job: update-all-app-manifests
+    - job: update_all_app_manifests
       pool:
           vmImage: 'windows-2019'
       steps:

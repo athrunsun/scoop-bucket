@@ -1,0 +1,7 @@
+jobs:
+    - job: update-all-app-manifests
+      pool:
+          vmImage: 'windows-2019'
+      steps:
+          - pwsh: pwd
+          - pwsh: cd $env:BUILD_REPOSITORY_LOCALPATH

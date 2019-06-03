@@ -5,3 +5,9 @@ jobs:
       steps:
           - pwsh: pwd
           - pwsh: git status
+          - pwsh: cd ..
+          - pwsh: git clone https://github.com/lukesampson/scoop
+          - pwsh: Write-Output $env:BUILD_REPOSITORY_LOCALPATH
+          - pwsh: Write-Output $env:BUILD_SOURCEDIRECTORY
+          - pwsh: cd $env:BUILD_REPOSITORY_LOCALPATH
+          - pwsh: & "..\scoop\bin\checkver.ps1" -dir .

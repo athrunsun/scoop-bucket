@@ -7,6 +7,6 @@ jobs:
           - pwsh: Write-Output $env:BUILD_SOURCESDIRECTORY
           - pwsh: Write-Output $env:AGENT_BUILDDIRECTORY
           - pwsh: git clone https://github.com/lukesampson/scoop
-            workingDirectory: $env:AGENT_BUILDDIRECTORY
+            workingDirectory: ..\
           - pwsh: ls
           - pwsh: . ..\scoop\bin\checkver.ps1 -dir .

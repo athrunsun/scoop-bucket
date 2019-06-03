@@ -14,12 +14,9 @@ jobs:
             failOnStderr: false
           - pwsh: . ..\scoop\bin\checkver.ps1 -dir . -u
             displayName: Update manifests using checkver.ps1
-          - pwsh: git status
-            displayName: git status
-            failOnStderr: false
-            continueOnError: true
           - pwsh: git add -A
+            displayName: git add
           - pwsh: git -c user.name='azure_devops' -c user.email='azure_devops' commit -m 'Update all app manifests'
-            displayName: Commit
+            displayName: git commit
           - pwsh: git push https://$env:GITHUBPAT@github.com/athrunsun/scoop-bucket.git HEAD:master
-            displayName: Push
+            displayName: git push

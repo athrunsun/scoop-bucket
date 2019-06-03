@@ -3,11 +3,13 @@ jobs:
       pool:
           vmImage: 'windows-2019'
       steps:
+          - pwsh: Write-Output $env:BUILD_REPOSITORY_LOCALPATH
+          - pwsh: Write-Output $env:BUILD_SOURCESDIRECTORY
           - pwsh: pwd
           - pwsh: git status
           - pwsh: cd ..
-          - pwsh: git clone https://github.com/lukesampson/scoop
-          - pwsh: Write-Output $env:BUILD_REPOSITORY_LOCALPATH
-          - pwsh: Write-Output $env:BUILD_SOURCEDIRECTORY
+          - pwsh: ls
+          - pwsh: git clone https://github.com/lukesampson/scoop ./scoop
+          - pwsh: ls
           - pwsh: cd $env:BUILD_REPOSITORY_LOCALPATH
           - pwsh: . ..\scoop\bin\checkver.ps1 -dir .

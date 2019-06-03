@@ -10,4 +10,4 @@ jobs:
           - pwsh: Write-Output $env:BUILD_REPOSITORY_LOCALPATH
           - pwsh: Write-Output $env:BUILD_SOURCEDIRECTORY
           - pwsh: cd $env:BUILD_REPOSITORY_LOCALPATH
-          - pwsh: & "..\scoop\bin\checkver.ps1" -dir .
+          - pwsh: . ..\scoop\bin\checkver.ps1 -dir .

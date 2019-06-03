@@ -1,12 +1,17 @@
+trigger:
+    branches:
+        include:
+            - master
+
 jobs:
     - job: update_all_app_manifests
       pool:
           vmImage: 'windows-2019'
       steps:
-          - pwsh: Write-Output $env:BUILD_REPOSITORY_LOCALPATH
-          - pwsh: Write-Output $env:BUILD_SOURCESDIRECTORY
-          - pwsh: Write-Output $env:AGENT_BUILDDIRECTORY
           - pwsh: git clone https://github.com/lukesampson/scoop
             workingDirectory: ..\
-          - pwsh: ls
-          - pwsh: . ..\scoop\bin\checkver.ps1 -dir .
+          - pwsh: . ..\scoop\bin\checkver.ps1 -dir . -u
+          - pwsh: git status
+          - pwsh: git add -A
+          - pwsh: git -c user.name='azure_devops' -c user.email='azure_devops' commit -m 'Update all app manifests'
+          - pwsh: git push https://$env:GITHUBPAT@github.com/athrunsun/scoop-bucket.git HEAD:master

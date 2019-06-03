@@ -8,15 +8,16 @@ jobs:
       pool:
           vmImage: 'windows-2019'
       steps:
-          - pwsh: git clone https://github.com/lukesampson/scoop
+          - pwsh: git clone https://github.com/lukesampson/scoop 2>&1
             displayName: Clone scoop repo
             workingDirectory: ..\
-            failOnStderr: false
           - pwsh: . ..\scoop\bin\checkver.ps1 -dir . -u
             displayName: Update manifests using checkver.ps1
           - pwsh: git add -A
             displayName: git add
-          - pwsh: git -c user.name='azure_devops' -c user.email='azure_devops' commit -m 'Update all app manifests'
+          - pwsh: git status 2>&1
+            displayName: git status
+          - pwsh: git -c user.name='azure_devops' -c user.email='azure_devops' commit -m 'Update all app manifests' 2>&1
             displayName: git commit
           - pwsh: git push https://$env:GITHUBPAT@github.com/athrunsun/scoop-bucket.git HEAD:master
             displayName: git push

@@ -25,5 +25,8 @@ jobs:
             errorActionPreference: continue
             ignoreLASTEXITCODE: true
             failOnStderr: false
-          - pwsh: git push https://$env:GITHUBPAT@github.com/athrunsun/scoop-bucket.git HEAD:master
+          - pwsh: git push https://$(GitHubPAT)@github.com/athrunsun/scoop-bucket.git HEAD:master
             displayName: git push
+            errorActionPreference: continue
+            ignoreLASTEXITCODE: true
+            failOnStderr: false

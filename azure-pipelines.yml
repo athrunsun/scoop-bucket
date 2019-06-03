@@ -22,5 +22,8 @@ jobs:
             displayName: git status
           - pwsh: git -c user.name='azure_devops' -c user.email='azure_devops' commit -m 'Update all app manifests' 2>&1
             displayName: git commit
+            errorActionPreference: continue
+            ignoreLASTEXITCODE: true
+            failOnStderr: false
           - pwsh: git push https://$env:GITHUBPAT@github.com/athrunsun/scoop-bucket.git HEAD:master
             displayName: git push

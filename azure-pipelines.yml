@@ -11,7 +11,9 @@ jobs:
           - pwsh: git clone https://github.com/lukesampson/scoop 2>&1
             displayName: Clone scoop repo
             workingDirectory: ..\
+            errorActionPreference: continue
             ignoreLASTEXITCODE: true
+            failOnStderr: false
           - pwsh: . ..\scoop\bin\checkver.ps1 -dir . -u
             displayName: Update manifests using checkver.ps1
           - pwsh: git add -A

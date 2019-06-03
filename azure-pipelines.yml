@@ -10,8 +10,10 @@ jobs:
       steps:
           - pwsh: git clone https://github.com/lukesampson/scoop
             workingDirectory: ..\
+            failOnStderr: false
           - pwsh: . ..\scoop\bin\checkver.ps1 -dir . -u
           - pwsh: git status
+            failOnStderr: false
           - pwsh: git add -A
           - pwsh: git -c user.name='azure_devops' -c user.email='azure_devops' commit -m 'Update all app manifests'
           - pwsh: git push https://$env:GITHUBPAT@github.com/athrunsun/scoop-bucket.git HEAD:master

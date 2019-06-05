@@ -1,7 +1,7 @@
 {
     "homepage": "https://www.centbrowser.com",
     "description": "The Most Feature Rich Chromium",
-    "notes": "This is the portable version, user data directory is created in the same installation folder.",
+    "notes": "This is the portable version, user data directory is created under installation folder.",
     "version": "4.0.9.102",
     "architecture": {
         "64bit": {

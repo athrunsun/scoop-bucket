@@ -2,15 +2,15 @@
     "homepage": "https://www.google.com/chrome",
     "description": "Fast, secure, and free web browser, built for the modern web.",
     "notes": "This installation of Google Chrome is not able to update itself since Google updater is not installed.",
-    "version": "74.0.3729.169",
+    "version": "75.0.3770.80",
     "architecture": {
         "64bit": {
-            "url": "https://dl.google.com/release2/chrome/AJhW7KKKIGp-_74.0.3729.169/74.0.3729.169_chrome_installer.exe#/dl.7z",
-            "hash": "421781dc06e31e96f0e8c79dcb0f27090840dd5f56a2b825ba360dc07417b5d5"
+            "url": "https://dl.google.com/release2/chrome/Dtb8dcEEcSc_75.0.3770.80/75.0.3770.80_chrome_installer.exe#/dl.7z",
+            "hash": "20791f09a836725b4f855b0a1736e6f3ce91939213ae4c34d53e42cd03b1e673"
         },
         "32bit": {
-            "url": "https://dl.google.com/release2/chrome/Om7Ybo6GeCQ_74.0.3729.169/74.0.3729.169_chrome_installer.exe#/dl.7z",
-            "hash": "346193D74185ED8B3F0318852A46374409E2AE601E43FF37039E7E587E2422B8"
+            "url": "https://dl.google.com/release2/chrome/AIJMmg7HthY6_75.0.3770.80/75.0.3770.80_chrome_installer.exe#/dl.7z",
+            "hash": "01d8e87223dc22673addfaf78dcd8aad40b1dc066c27d5a485ed413f9d7a9997"
         }
     },
     "installer": {

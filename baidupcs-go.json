@@ -26,6 +26,7 @@
             "BaiduPCS-Go"
         ]
     ],
+    "persist": "pcs_config.json",
     "checkver": "github",
     "autoupdate": {
         "architecture": {

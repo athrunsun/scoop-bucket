@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/iikira/BaiduPCS-Go",
-    "description": "Baidu PCS client written in golang.",
+    "description": "Baidu PCS CLI client written in golang.",
     "version": "3.5.6",
     "architecture": {
         "64bit": {
@@ -26,7 +26,6 @@
             "BaiduPCS-Go"
         ]
     ],
-    "persist": "BaiduPCS-Go",
     "checkver": "github",
     "autoupdate": {
         "architecture": {

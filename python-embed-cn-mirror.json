@@ -2,15 +2,15 @@
     "homepage": "https://www.python.org",
     "description": "Python embeddable.",
     "notes": "Will download from China mirror site",
-    "version": "3.6.8",
+    "version": "3.7.4",
     "architecture": {
         "64bit": {
-            "url": "http://npm.taobao.org/mirrors/python/3.6.8/python-3.6.8-embed-amd64.zip",
-            "hash": "efadf25a090c8438b3cbe27574fb36bd40c80e20a03939188a1d5051685495dd"
+            "url": "http://npm.taobao.org/mirrors/python/3.7.4/python-3.7.4-embed-amd64.zip",
+            "hash": "fb65e5cd595ad01049f73b47bc0ee23fd03f0cbadc56cb318990cee83b37761b"
         },
         "32bit": {
-            "url": "http://npm.taobao.org/mirrors/python/3.6.8/python-3.6.8-embed-win32.zip",
-            "hash": "efadf25a090c8438b3cbe27574fb36bd40c80e20a03939188a1d5051685495dd"
+            "url": "http://npm.taobao.org/mirrors/python/3.7.4/python-3.7.4-embed-win32.zip",
+            "hash": "864140e801ad1c7bce4337f7e023b46a197f00af0e491a5e0d64d003a870b116"
         }
     },
     "bin": "python.exe",

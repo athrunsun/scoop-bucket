@@ -6,15 +6,18 @@
     "hash": "06a1c80d4abb0a592f1fae17c5b0a850820922ff4342f599f696c102d5dcbcc2",
     "bin": [
         [
-            "Universal-USB-Installer-1.9.8.0.exe",
+            "Universal-USB-Installer.exe",
             "uui"
         ]
     ],
     "shortcuts": [
         [
-            "Universal-USB-Installer-1.9.8.0.exe",
+            "Universal-USB-Installer.exe",
             "Universal-USB-Installer"
         ]
+    ],
+    "post_install": [
+        "Rename-Item -Path \"$dir\\Universal-USB-Installer-$version.exe\" -Newname \"Universal-USB-Installer.exe\""
     ],
     "checkver": {
         "url": "https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/",

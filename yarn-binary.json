@@ -1,0 +1,32 @@
+{
+    "homepage": "https://github.com/yarnpkg/yarn",
+    "description": "Fast, reliable, and secure dependency management.",
+    "notes": "Will download tarball instead of msi, will download from github instead of yarnpkg.com.",
+    "version": "1.17.3",
+    "url": "https://github.com/yarnpkg/yarn/releases/download/v1.17.3/yarn-v1.17.3.tar.gz",
+    "hash": "e3835194409f1b3afa1c62ca82f561f1c29d26580c9e220c36866317e043c6f3",
+    "persist": [
+        "cache",
+        "mirror",
+        "global"
+    ],
+    "post_install": [
+        "yarn config set cache-folder \"$dir\\cache\"",
+        "yarn config set yarn-offline-mirror \"$dir\\mirror\"",
+        "yarn config set global-folder \"$dir\\global\""
+    ],
+    "bin": [
+        [
+            "bin\\yarn.cmd",
+            "yarn"
+        ],
+        [
+            "bin\\yarnpkg.cmd",
+            "yarnpkg"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/yarnpkg/yarn/releases/download/v$version/yarn-v$version.tar.gz"
+    }
+}

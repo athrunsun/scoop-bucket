@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/",
     "description": "Universal USB Installer aka UUI is a Live Linux Bootable USB Creator that allows you to choose from a selection of Linux Distributions to put on your USB Flash Drive.",
-    "version": "1.9.8.8",
-    "url": "https://www.pendrivelinux.com/downloads/Universal-USB-Installer/Universal-USB-Installer-1.9.8.8.exe",
-    "hash": "06a1c80d4abb0a592f1fae17c5b0a850820922ff4342f599f696c102d5dcbcc2",
+    "version": "1.9.8.9",
+    "url": "https://www.pendrivelinux.com/downloads/Universal-USB-Installer/Universal-USB-Installer-1.9.8.9.exe",
+    "hash": "e83bcc86489a517144ebc945bb1d4477458781913551b42c8f384321e9ea23e7",
     "bin": [
         [
             "Universal-USB-Installer.exe",
@@ -16,9 +16,7 @@
             "Universal-USB-Installer"
         ]
     ],
-    "post_install": [
-        "Rename-Item -Path \"$dir\\Universal-USB-Installer-$version.exe\" -Newname \"Universal-USB-Installer.exe\""
-    ],
+    "post_install": "Rename-Item -Path \"$dir\\Universal-USB-Installer-$version.exe\" -Newname \"Universal-USB-Installer.exe\"",
     "checkver": {
         "url": "https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/",
         "regex": "<span[^>]*>Universal-USB-Installer-([\\d\\.]+)\\.exe"

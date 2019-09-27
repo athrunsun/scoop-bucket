@@ -2,9 +2,9 @@
     "homepage": "https://github.com/yarnpkg/yarn",
     "description": "Fast, reliable, and secure dependency management.",
     "notes": "Will download from China mirror https://npm.taobao.org/mirrors/yarn.",
-    "version": "1.17.3",
-    "url": "https://npm.taobao.org/mirrors/yarn/v1.17.3/yarn-v1.17.3.tar.gz",
-    "hash": "e3835194409f1b3afa1c62ca82f561f1c29d26580c9e220c36866317e043c6f3",
+    "version": "1.18.0",
+    "url": "https://npm.taobao.org/mirrors/yarn/v1.18.0/yarn-v1.18.0.tar.gz",
+    "hash": "2f8d93c217ecca06eb720794c8d1484a67d37bdb58ab761108b5c651d59d3fc6",
     "bin": [
         [
             "bin\\yarn.cmd",

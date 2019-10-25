@@ -2,9 +2,9 @@
     "homepage": "https://www.maxthon.cn",
     "description": "Maxthon 5 cloud browser, innovate your browser world view.",
     "notes": "This is the portable version, user data directory is created under installation folder.",
-    "version": "5.2.7.5000",
-    "url": "https://dl.maxthon.cn/mx5/maxthon_portable_5.2.7.5000.7z",
-    "hash": "913f3e413dced372fdb1f51863c02735dc1f0f375c0c905bb4ce134616291b1b",
+    "version": "5.3.8.2000",
+    "url": "https://dl.maxthon.cn/mx5/maxthon_portable_5.3.8.2000.7z",
+    "hash": "c1c4008f3c008b5ffa28cb2b27d850d9c0a22fa85a28c16e7427c155f8368f6a",
     "extract_dir": "MaxthonPortable",
     "bin": [
         [

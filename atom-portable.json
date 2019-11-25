@@ -1,0 +1,53 @@
+{
+    "homepage": "https://atom.io/",
+    "version": "1.41.0",
+    "license": "MIT",
+    "description": "The hackable text editor.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/atom/atom/releases/download/v1.41.0/atom-x64-windows.zip",
+            "hash": "66a3e0ec933e0f036d6830d5152ecf7c54a2a7dfad5463cd416332356f829ad3",
+            "bin": [
+                "Atom x64\\resources\\cli\\atom.cmd",
+                "Atom x64\\resources\\app\\apm\\bin\\apm.cmd"
+            ],
+            "shortcuts": [
+                [
+                    "Atom x64\\atom.exe",
+                    "Atom"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://github.com/atom/atom/releases/download/v1.41.0/atom-windows.zip",
+            "hash": "6b47ea500fd185845bf28c900b654b0d828d1da64daa1b713743e2e87ba866e7",
+            "bin": [
+                "Atom\\resources\\cli\\atom.cmd",
+                "Atom\\resources\\app\\apm\\bin\\apm.cmd"
+            ],
+            "shortcuts": [
+                [
+                    "Atom\\atom.exe",
+                    "Atom"
+                ]
+            ],
+        }
+    },
+    "persist": [
+        [".atom", "user_data"],
+        [".atom\\electronUserData", "electron_user_data"]
+    ],
+    "checkver": {
+        "github": "https://github.com/atom/atom"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/atom/atom/releases/download/v$version/atom-x64-windows.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/atom/atom/releases/download/v$version/atom-windows.zip"
+            }
+        }
+    }
+}

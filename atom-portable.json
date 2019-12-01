@@ -3,6 +3,12 @@
     "version": "1.41.0",
     "license": "MIT",
     "description": "The hackable text editor.",
+    "notes": [
+        "Portable mode documentation:",
+        "https://flight-manual.atom.io/getting-started/sections/installing-atom/#portable-mode",
+        "Please move the following directories:",
+        "From \"$HOME\\.atom\" to \"<path_to_scoop_installation>\\persist\\atom-portable\\user_data\""
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/atom/atom/releases/download/v1.41.0/atom-x64-windows.zip",

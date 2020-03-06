@@ -2,9 +2,9 @@
     "homepage": "https://github.com/yarnpkg/yarn",
     "description": "Fast, reliable, and secure dependency management.",
     "notes": "Will download tarball instead of msi, will download from github instead of yarnpkg.com.",
-    "version": "1.22.0",
-    "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.0/yarn-v1.22.0.tar.gz",
-    "hash": "de8871c4e2822cba80d58c2e72366fb78567ec56e873493c9ca0cca76c60f9a5",
+    "version": "1.22.1",
+    "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.1/yarn-v1.22.1.tar.gz",
+    "hash": "3af905904932078faa8f485d97c928416b30a86dd09dcd76e746a55c7f533b72",
     "bin": [
         [
             "bin\\yarn.cmd",

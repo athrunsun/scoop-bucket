@@ -1,0 +1,59 @@
+{
+    "homepage": "https://code.visualstudio.com",
+    "version": "1.44.0",
+    "description": "Visual Studio Code is a lightweight but powerful source code editor (Portable Edition w/o context menu installer).",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://code.visualstudio.com/License"
+    },
+    "notes": [
+        "Visual Studio Code now supports Portable Mode! Please move the following directories:",
+        "From \"$env:USERPROFILE\\.vscode\\extensions\" to \"$env:USERPROFILE\\scoop\\persist\\vscode-portable\\data\\extensions\"",
+        "From \"$env:APPDATA\\Code\" to \"$env:USERPROFILE\\scoop\\persist\\vscode-portable\\data\\user-data\""
+    ],
+    "bin": [
+        [
+            "bin\\code.cmd",
+            "code"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "code.exe",
+            "Visual Studio Code"
+        ]
+    ],
+    "persist": "data",
+    "checkver": {
+        "url": "https://code.visualstudio.com/sha?build=stable",
+        "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].name"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://vscode-update.azurewebsites.net/1.44.0/win32-x64-archive/stable#/dl.7z",
+            "hash": "57bd10024f55609aa27370cf1fab7e57ea8d9a4910e87852fe09e76334e4ff3b"
+        },
+        "32bit": {
+            "url": "https://vscode-update.azurewebsites.net/1.44.0/win32-archive/stable#/dl.7z",
+            "hash": "06d835b9de31806ecd30fbb4eaf29f32f257c81b751641aace4a1514bb09f7b2"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://vscode-update.azurewebsites.net/$version/win32-x64-archive/stable#/dl.7z",
+                "hash": {
+                    "url": "https://code.visualstudio.com/sha?build=stable",
+                    "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
+                }
+            },
+            "32bit": {
+                "url": "https://vscode-update.azurewebsites.net/$version/win32-archive/stable#/dl.7z",
+                "hash": {
+                    "url": "https://code.visualstudio.com/sha?build=stable",
+                    "jp": "$.products[?(@.platform.os == 'win32-archive')].sha256hash"
+                }
+            }
+        }
+    }
+}

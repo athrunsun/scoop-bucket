@@ -1,0 +1,38 @@
+{
+    "description": "AdoptOpenJDK with Oracle HotSpot JVM, China mirror",
+    "homepage": "https://adoptopenjdk.net",
+    "version": "11.0.7-10.2",
+    "license": "GPL-2.0-only WITH Classpath-exception-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/11/jdk/x64/windows/OpenJDK11U-jdk_x64_windows_hotspot_11.0.7_10.zip",
+            "hash": "ebec62c06c2ad5782e6c364630cadb7591903206e224542563e4c3af5314187c"
+        },
+        "32bit": {
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/11/jdk/x32/windows/OpenJDK11U-jdk_x86-32_windows_hotspot_11.0.7_10.zip",
+            "hash": "0923fe98e2fc9e5e18b56a49bb0b9fb5dd5672db9dbe703ac6084b87dddcb08d"
+        }
+    },
+    "extract_dir": "jdk-11.0.7+10",
+    "env_add_path": "bin",
+    "env_set": {
+        "JAVA_HOME": "$dir"
+    },
+    "checkver": {
+        "url": "https://api.adoptopenjdk.net/v3/assets/version/%5B8%2C%29?release_type=ga&lts=true&jvm_impl=hotspot&heap_size=normal&os=windows&architecture=x64&image_type=jdk&project=jdk&vendor=adoptopenjdk&page_size=1&sort_order=DESC",
+        "jp": "$..binaries[0].package.link",
+        "re": "https://github.com/(?<url>.*?(?<tag>jdk-(?<major>(?<jdk>[\\d]+)[\\d.]*)(?:\\%2B|\\+)(?<build>[\\d]+)(?<patch>[\\d.]*)))/",
+        "replace": "${major}-${build}${patch}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/11/jdk/x64/windows/OpenJDK$matchJdkU-jdk_x64_windows_hotspot_$matchMajor_$matchBuild.zip"
+            },
+            "32bit": {
+                "url": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/11/jdk/x32/windows/OpenJDK$matchJdkU-jdk_x86-32_windows_hotspot_$matchMajor_$matchBuild.zip"
+            }
+        },
+        "extract_dir": "jdk-$matchMajor+$matchBuild"
+    }
+}

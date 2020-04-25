@@ -1,0 +1,38 @@
+{
+    "description": "AdoptOpenJDK 8 with Oracle HotSpot JVM, China mirror",
+    "homepage": "https://adoptopenjdk.net",
+    "version": "8u252-b09.1",
+    "license": "GPL-2.0-only WITH Classpath-exception-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x64/windows/OpenJDK8U-jdk_x64_windows_hotspot_8u252b09.zip",
+            "hash": "6c6e63cd8448f036d2d34fa6531afebc4572a1197e884ce7222fccde1b1c79a2"
+        },
+        "32bit": {
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x32/windows/OpenJDK8U-jdk_x86-32_windows_hotspot_8u252b09.zip",
+            "hash": "8579284bcb9e6f9adbb994973ad8c0e23b5b77f845e958736160f58841af5aa9"
+        }
+    },
+    "extract_dir": "jdk8u252-b09",
+    "env_add_path": "bin",
+    "env_set": {
+        "JAVA_HOME": "$dir"
+    },
+    "checkver": {
+        "url": "https://api.adoptopenjdk.net/v3/assets/feature_releases/8/ga?jvm_impl=hotspot&heap_size=normal&os=windows&architecture=x64&image_type=jdk&project=jdk&vendor=adoptopenjdk&page_size=1&sort_order=DESC",
+        "jp": "$..binaries[0].package.link",
+        "re": "https://github.com/(?<url>.*?(?<tag>jdk(?<major>[\\d]+)(?<update>u[\\d]+)-(?<build>b[\\d]+)(?<patch>[\\d.]*)))/",
+        "replace": "${major}${update}-${build}${patch}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x64/windows/OpenJDK$matchMajorU-jdk_x64_windows_hotspot_$matchMajor$matchUpdate$matchBuild.zip"
+            },
+            "32bit": {
+                "url": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x32/windows/OpenJDK$matchMajorU-jdk_x86-32_windows_hotspot_$matchMajor$matchUpdate$matchBuild.zip"
+            }
+        },
+        "extract_dir": "jdk$matchMajor$matchUpdate-$matchBuild"
+    }
+}

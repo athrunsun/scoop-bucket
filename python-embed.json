@@ -1,15 +1,15 @@
 {
     "homepage": "https://www.python.org",
     "description": "Python embeddable.",
-    "version": "3.8.2",
+    "version": "3.8.3",
     "architecture": {
         "64bit": {
-            "url": "https://www.python.org/ftp/python/3.8.2/python-3.8.2-embed-amd64.zip",
-            "hash": "2927a3a6d0fe1f6e047a86059220aeda374eed23113b9ef5355acb8452d56453"
+            "url": "https://www.python.org/ftp/python/3.8.3/python-3.8.3-embed-amd64.zip",
+            "hash": "7f8c29563dae48a07ea3242a6a19b7b5b8519a16fd711e719a8f9680f342279a"
         },
         "32bit": {
-            "url": "https://www.python.org/ftp/python/3.8.2/python-3.8.2-embed-win32.zip",
-            "hash": "3fefc09b640bb6bd1d91f9c3a63e314fb19d29603c1194db528b58efafbcbadb"
+            "url": "https://www.python.org/ftp/python/3.8.3/python-3.8.3-embed-win32.zip",
+            "hash": "3354e89fc64f3248a3187ab2e75b03ea6b67d89af104c5dff007fe8df909de2b"
         }
     },
     "bin": "python.exe",

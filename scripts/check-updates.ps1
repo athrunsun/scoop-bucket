@@ -30,7 +30,11 @@ foreach ($filename in $filenames) {
         if (isAutoUpdateAvailable $result) {
             $updateVersion = $result[1]
             Write-Host "Will update $appName to version $updateVersion..."
-            &"D:\bedroom\local\app\scoop\apps\scoop\current\bin\checkver.ps1" -App $appName -Dir . -u
+            &"..\scoop\bin\checkver.ps1" -App $appName -Dir . -u
+
+            # For debugging on local machine
+            # &"D:\bedroom\local\app\scoop\apps\scoop\current\bin\checkver.ps1" -App $appName -Dir . -u
+
             Write-Host "Updated $appName to version $updateVersion"
             git add -A
             git status 2>&1

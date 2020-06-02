@@ -1,16 +1,16 @@
 {
     "homepage": "https://www.mozilla.org/en-US/firefox/new/",
     "description": "The 100% fresh, free-range, ethical browser, with more speed, privacy and freedom. This is the stable version, in en-US.",
-    "version": "76.0.1",
+    "version": "77.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.mozilla.org/?product=firefox-76.0.1-SSL&os=win64&lang=en-US#/firefox-setup.exe#/dl.7z",
-            "hash": "9bb84318124f1335aa1ebba2447e30643e462ddf8318f7d2b61f0b37f733be48",
+            "url": "https://download.mozilla.org/?product=firefox-77.0-SSL&os=win64&lang=en-US#/firefox-setup.exe#/dl.7z",
+            "hash": "859efffc777b2260250c982036920baef79369cbce08822ba8700db1ec7e8b88",
             "extract_dir": "core"
         },
         "32bit": {
-            "url": "https://download.mozilla.org/?product=firefox-76.0.1-SSL&os=win&lang=en-US#/firefox-setup.exe#/dl.7z",
-            "hash": "2247cb1370b6ac65ede3eb80567c12261ea638529590ac62edc3e2ff47994f68",
+            "url": "https://download.mozilla.org/?product=firefox-77.0-SSL&os=win&lang=en-US#/firefox-setup.exe#/dl.7z",
+            "hash": "48512979e3b9ac475fdd5168cc8d4006d2f36064cb0bf4db8c3100a9b1e532b9",
             "extract_dir": "core"
         }
     },

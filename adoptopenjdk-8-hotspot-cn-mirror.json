@@ -1,19 +1,19 @@
 {
     "description": "AdoptOpenJDK 8 with Oracle HotSpot JVM, China mirror",
     "homepage": "https://adoptopenjdk.net",
-    "version": "8u252-b09.1",
+    "version": "8u262-b10",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x64/windows/OpenJDK8U-jdk_x64_windows_hotspot_8u252b09.zip",
-            "hash": "6c6e63cd8448f036d2d34fa6531afebc4572a1197e884ce7222fccde1b1c79a2"
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x64/windows/OpenJDK8U-jdk_x64_windows_hotspot_8u262b10.zip",
+            "hash": "7741410c195cdc5eb46410a453dd1446c97ab0c693cbd2543bf7d6ed9f7bf302"
         },
         "32bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x32/windows/OpenJDK8U-jdk_x86-32_windows_hotspot_8u252b09.zip",
-            "hash": "8579284bcb9e6f9adbb994973ad8c0e23b5b77f845e958736160f58841af5aa9"
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x32/windows/OpenJDK8U-jdk_x86-32_windows_hotspot_8u262b10.zip",
+            "hash": "d562bd177a39679d3696f8d851d35f5df46c208746885d92f3eb6226a48f3c93"
         }
     },
-    "extract_dir": "jdk8u252-b09",
+    "extract_dir": "jdk8u262-b10",
     "env_add_path": "bin",
     "env_set": {
         "JAVA_HOME": "$dir"

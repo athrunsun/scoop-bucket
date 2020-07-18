@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "http://static.centbrowser.com/installer_64/centbrowser_4.2.10.171_x64.exe#/dl.7z",
-            "hash": "9154b9ab166761de57437db611a8602d8d815a96f2d763ec7f8cc43514524606"
+            "hash": "9af156e4030e7192d5041bfcc8abd8fdc965ed2b85b6a376c45b18ffc1f5b6ce"
         },
         "32bit": {
             "url": "http://static.centbrowser.com/installer_32/centbrowser_4.2.10.171.exe#/dl.7z",

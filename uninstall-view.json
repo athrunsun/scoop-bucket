@@ -25,7 +25,7 @@
         ]
     ],
     "checkver": {
-        "url": "homepage": "https://www.nirsoft.net/utils/uninstall_view.html",
+        "url": "https://www.nirsoft.net/utils/uninstall_view.html",
         "regex": "Versions History</h4>\\s*<ul>\\s*<li>Version\\s*([\\d\\.]+):",
     },
     "autoupdate": {

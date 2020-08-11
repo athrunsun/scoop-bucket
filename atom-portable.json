@@ -1,6 +1,6 @@
 {
     "homepage": "https://atom.io/",
-    "version": "1.49.0",
+    "version": "1.50.0",
     "license": "MIT",
     "description": "The hackable text editor.",
     "notes": [
@@ -11,8 +11,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/atom/atom/releases/download/v1.49.0/atom-x64-windows.zip",
-            "hash": "0065c9126d8428ffe56c25504be3699fe40360fcfd3a636f57ff07042755ed7c",
+            "url": "https://github.com/atom/atom/releases/download/v1.50.0/atom-x64-windows.zip",
+            "hash": "cfb227a8844db0b02da48aac4de7aaf852a4419db8918adb5bf41b323c0b3e29",
             "bin": [
                 "Atom x64\\resources\\cli\\atom.cmd",
                 "Atom x64\\resources\\app\\apm\\bin\\apm.cmd"
@@ -25,8 +25,8 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/atom/atom/releases/download/v1.49.0/atom-windows.zip",
-            "hash": "4dc87cd632f1b01ea09351e9d50ea8a9ffad79f2783aa76a718a44f9fb694aa6",
+            "url": "https://github.com/atom/atom/releases/download/v1.50.0/atom-windows.zip",
+            "hash": "72fa420a3b1e736b59351721b6e3c4f921246fd40f0de2feac2d5fd861c338ee",
             "bin": [
                 "Atom\\resources\\cli\\atom.cmd",
                 "Atom\\resources\\app\\apm\\bin\\apm.cmd"

@@ -1,16 +1,16 @@
 {
     "homepage": "https://github.com/VSCodium/vscodium",
-    "version": "1.48.1",
+    "version": "1.48.2",
     "license": "MIT",
     "description": "Binary releases of VS Code without MS branding/telemetry/licensing (Portable Edition w/o context menu installer).",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VSCodium/vscodium/releases/download/1.48.1/VSCodium-win32-x64-1.48.1.zip",
-            "hash": "16a16652c4fe1af45fea2689b1e8000f82b51fa03b333346426a6b6f06558661"
+            "url": "https://github.com/VSCodium/vscodium/releases/download/1.48.2/VSCodium-win32-x64-1.48.2.zip",
+            "hash": "5c5ae47c5e2e25dda31db0b61045e2156383db0601edccd0823615c98257fc38"
         },
         "32bit": {
-            "url": "https://github.com/VSCodium/vscodium/releases/download/1.48.1/VSCodium-win32-ia32-1.48.1.zip",
-            "hash": "1845c1297c9ddf737aad9d05ccda8851de94ec52f7b29fc48e4890eb0412dd1d"
+            "url": "https://github.com/VSCodium/vscodium/releases/download/1.48.2/VSCodium-win32-ia32-1.48.2.zip",
+            "hash": "3425aaede5f30a792df1d5931a326f05d6a89fc182e7a81df11f8044d07929f3"
         }
     },
     "bin": [

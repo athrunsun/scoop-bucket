@@ -10,7 +10,12 @@
             "Remove-Item -Path \"$dir\\Chrome-bin\" -Recurse -Force"
         ]
     },
-    "bin": "chrome.exe",
+    "bin": [
+        [
+            "chrome.exe",
+            "chromium-hibbiki"
+        ]
+    ],
     "shortcuts": [
         [
             "chrome.exe",

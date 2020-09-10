@@ -6,7 +6,7 @@
     "hash": "44e3b7ce5ca2a88de1a2932cea5ff403e155a2c89f632c2fd03432edbd3561d7",
     "installer": {
         "script": [
-            "Get-ChildItem -Path \"$dir\\Chrome-bin\" | Move-Item -Destination \"$dir\" -Recurse -Container",
+            "Get-ChildItem -Path \"$dir\\Chrome-bin\" | Move-Item -Destination \"$dir\"",
             "Remove-Item -Path \"$dir\\Chrome-bin\" -Recurse -Force"
         ]
     },

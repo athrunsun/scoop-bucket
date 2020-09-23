@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/Hibbiki/chromium-win64",
     "description": "Chromium for Windows x64, built by Hibbiki.",
-    "version": "85.0.4183.102-r782793",
-    "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v85.0.4183.102-r782793/chrome.sync.7z",
-    "hash": "ab50ae91cb81ed55079e0054cb5d5b09724d717bd9e5cb9fef2d7f70473e3cc4",
+    "version": "85.0.4183.121-r782793",
+    "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v85.0.4183.121-r782793/chrome.sync.7z",
+    "hash": "0b4763be4e213a297d833731d69d72c9448516a248ddafc5613f56a93f76cb37",
     "installer": {
         "script": [
             "Get-ChildItem -Path \"$dir\\Chrome-bin\" | Move-Item -Destination \"$dir\"",

@@ -1,6 +1,6 @@
 {
     "homepage": "https://code.visualstudio.com",
-    "version": "1.50.0",
+    "version": "1.50.1",
     "description": "Visual Studio Code is a lightweight but powerful source code editor (Portable Edition w/o context menu installer).",
     "license": {
         "identifier": "Freeware",
@@ -30,12 +30,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://vscode-update.azurewebsites.net/1.50.0/win32-x64-archive/stable#/dl.7z",
-            "hash": "2ad32c65071c150558b2c4f8064257144184beafa53a55acad11322851801652"
+            "url": "https://vscode-update.azurewebsites.net/1.50.1/win32-x64-archive/stable#/dl.7z",
+            "hash": "1c3b165ebc13d41eeada9a016b523b59be7cafb2d3bb2ac0d320d898256fa283"
         },
         "32bit": {
-            "url": "https://vscode-update.azurewebsites.net/1.50.0/win32-archive/stable#/dl.7z",
-            "hash": "b0300e380a3ccf698b3f5987eaa7d5d77b7c6e5d5d3ab77cc8a16bf8413d40ba"
+            "url": "https://vscode-update.azurewebsites.net/1.50.1/win32-archive/stable#/dl.7z",
+            "hash": "fc2e804948fc92e06d8739a40ad06eeb7b3f4d3766204455391045a1390f0aa8"
         }
     },
     "autoupdate": {

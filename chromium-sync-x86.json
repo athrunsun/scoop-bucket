@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/Hibbiki/chromium-win32",
     "description": "Chromium for Windows x86, built by Hibbiki.",
-    "version": "86.0.4240.75-r800218",
-    "url": "https://github.com/Hibbiki/chromium-win32/releases/download/v86.0.4240.75-r800218/chrome.sync.7z",
-    "hash": "f5ac43e0e60264e73e7ccf828fc8142d15542dbe3d5db3cd0991f5fdf44d7987",
+    "version": "86.0.4240.111-r800218",
+    "url": "https://github.com/Hibbiki/chromium-win32/releases/download/v86.0.4240.111-r800218/chrome.sync.7z",
+    "hash": "e75f9863174b6ad13678507c31904de84807b74d134ad90ce4ce3c41fa05b6c7",
     "installer": {
         "script": [
             "Get-ChildItem -Path \"$dir\\Chrome-bin\" | Move-Item -Destination \"$dir\"",

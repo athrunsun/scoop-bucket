@@ -1,7 +1,7 @@
 {
     "description": "AdoptOpenJDK with Oracle HotSpot JVM, China mirror",
     "homepage": "https://adoptopenjdk.net",
-    "version": "11.0.9-11",
+    "version": "11.0.9-11.1",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0",
     "architecture": {
         "64bit": {

@@ -5,7 +5,7 @@
     "version": "1.22.10",
     "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.10/yarn-v1.22.10.tar.gz",
     "hash": "7e433d4a77e2c79e6a7ae4866782608a8e8bcad3ec6783580577c59538381a6e",
-    "extract_dir": "yarn-v$version",
+    "extract_dir": "yarn-v1.22.10",
     "bin": [
         [
             "bin\\yarn.cmd",
@@ -18,6 +18,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/yarnpkg/yarn/releases/download/v$version/yarn-v$version.tar.gz"
+        "url": "https://github.com/yarnpkg/yarn/releases/download/v$version/yarn-v$version.tar.gz",
+        "extract_dir": "yarn-v$version"
     }
 }

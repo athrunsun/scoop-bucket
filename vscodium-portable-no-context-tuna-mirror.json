@@ -5,11 +5,11 @@
     "description": "Binary releases of VS Code without MS branding/telemetry/licensing (Portable Edition w/o context menu installer). TUNA mirror.",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/VSCodium/vscodium/1.47.3/VSCodium-win32-ia32-1.47.3.zip",
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/VSCodium/vscodium/1.47.3/VSCodium-win32-x64-1.47.3.zip",
             "hash": "7dda15efff58dcf149ac1d1186ba71b963d2174445389609f1dbcb3b0f690368"
         },
         "32bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/VSCodium/vscodium/1.47.3/VSCodium-win32-x64-1.47.3.zip",
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/VSCodium/vscodium/1.47.3/VSCodium-win32-ia32-1.47.3.zip",
             "hash": "27d89f2f9c1614526130c75ad15960778e43502c315c36fe145ddd3929f11353"
         }
     },
@@ -26,14 +26,17 @@
         ]
     ],
     "persist": "data",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/VSCodium/vscodium",
+        "regex": "\/releases\/tag\/(?:v|V)?([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/VSCodium/vscodium/$version/VSCodium-win32-ia32-$version.zip"
+                "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/VSCodium/vscodium/$version/VSCodium-win32-x64-$version.zip"
             },
             "32bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/VSCodium/vscodium/$version/VSCodium-win32-x64-$version.zip"
+                "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/VSCodium/vscodium/$version/VSCodium-win32-ia32-$version.zip"
             }
         },
         "hash": {

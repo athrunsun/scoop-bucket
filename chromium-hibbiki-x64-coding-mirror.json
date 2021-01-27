@@ -6,7 +6,7 @@
     "hash": "1bbdda67c7f0c0be5b08fc0dd5518327d815667000c4a1f3a53b4dc617bf8f47",
     "installer": {
         "script": [
-            "7z x $dir\\chrome.7z \"-o$dir\"",
+            "$output = 7z x $dir\\chrome.7z \"-o$dir\"",
             "rm $dir\\chrome.7z",
             "Get-ChildItem -Path \"$dir\\Chrome-bin\" | Move-Item -Destination \"$dir\"",
             "Remove-Item -Path \"$dir\\Chrome-bin\" -Recurse -Force"

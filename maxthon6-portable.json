@@ -8,13 +8,13 @@
     "extract_dir": "MaxthonPortable",
     "bin": [
         [
-            "Bin\\Maxthon.exe",
+            "Maxthon.exe",
             "maxthon6"
         ]
     ],
     "shortcuts": [
         [
-            "Bin\\Maxthon.exe",
+            "Maxthon.exe",
             "Maxthon 6 Portable"
         ]
     ],

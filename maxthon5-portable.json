@@ -4,7 +4,7 @@
     "notes": "This is the portable version, user data directory is created under installation folder.",
     "version": "5.3.8.2000",
     "url": "https://dl.maxthon.cn/mx5/maxthon_portable_5.3.8.2000.7z",
-    "hash": "c1c4008f3c008b5ffa28cb2b27d850d9c0a22fa85a28c16e7427c155f8368f6a",
+    "hash": "79af46d592a6638d11922c4f79ad419c994f805e96dfbd4b257f6050bbe500f8",
     "extract_dir": "MaxthonPortable",
     "bin": [
         [

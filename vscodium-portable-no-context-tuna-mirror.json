@@ -1,16 +1,16 @@
 {
     "homepage": "https://mirrors.tuna.tsinghua.edu.cn/github-release/VSCodium/vscodium",
-    "version": "1.53.1",
+    "version": "1.53.2",
     "license": "MIT",
     "description": "Binary releases of VS Code without MS branding/telemetry/licensing (Portable Edition w/o context menu installer). TUNA mirror.",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/VSCodium/vscodium/1.53.1/VSCodium-win32-x64-1.53.1.zip",
-            "hash": "0a26de2d1f82412a3b2d5bbc2366fcc0ea9fe106371b59db4322ae87c72fecdb"
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/VSCodium/vscodium/1.53.2/VSCodium-win32-x64-1.53.2.zip",
+            "hash": "df6aece1f431c3efcebe45fdc788c3aa5768ccafff6304f66a2ccc213226204f"
         },
         "32bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/VSCodium/vscodium/1.53.1/VSCodium-win32-ia32-1.53.1.zip",
-            "hash": "0199c600d05021dd2983bc2476905e13488361a258e308fd62e11b2e9e20d1c8"
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/VSCodium/vscodium/1.53.2/VSCodium-win32-ia32-1.53.2.zip",
+            "hash": "ac01ad0408327e275ad646b22aa7f13a52f75d5dfb250644bf13d9d538e50e7a"
         }
     },
     "bin": [

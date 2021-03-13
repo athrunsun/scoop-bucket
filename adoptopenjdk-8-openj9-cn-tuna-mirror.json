@@ -1,5 +1,5 @@
 {
-    "description": "AdoptOpenJDK 8 with Eclipse OpenJ9 JVM, China mirror",
+    "description": "AdoptOpenJDK 8 with Eclipse OpenJ9 JVM, China TUNA mirror",
     "homepage": "https://adoptopenjdk.net",
     "version": "8u282-b08-0.24.0",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0,EPL-2.0",

@@ -1,7 +1,7 @@
 {
     "homepage": "https://www.python.org",
     "description": "Python embeddable.",
-    "notes": "Will download from China mirror site",
+    "notes": "Will download from China taobao mirror site",
     "version": "3.9.2",
     "architecture": {
         "64bit": {

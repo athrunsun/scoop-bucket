@@ -1,14 +1,10 @@
 {
-    "description": "AdoptOpenJDK with Eclipse OpenJ9 JVM, China mirror",
+    "description": "AdoptOpenJDK with Eclipse OpenJ9 JVM, China TUNA mirror",
     "homepage": "https://adoptopenjdk.net",
     "version": "11.0.10-9-0.24.0",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0,EPL-2.0",
-    "architecture": {
-        "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/11/jdk/x64/windows/OpenJDK11U-jdk_x64_windows_openj9_11.0.10_9_openj9-0.24.0.zip",
-            "hash": "53df6ebb995736ed825dee8e7e07392bbc380d269085d0527775eeedbb4b7842"
-        }
-    },
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/11/jdk/x64/windows/OpenJDK11U-jdk_x64_windows_openj9_11.0.10_9_openj9-0.24.0.zip",
+    "hash": "53df6ebb995736ed825dee8e7e07392bbc380d269085d0527775eeedbb4b7842",
     "extract_dir": "jdk-11.0.10+9",
     "env_add_path": "bin",
     "env_set": {
@@ -21,11 +17,7 @@
         "replace": "${major}-${build}${patch}${jvmver}"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/11/jdk/x64/windows/OpenJDK11U-jdk_x64_windows_openj9_$matchMajor_$matchBuild_openj9$matchJvmver.zip"
-            }
-        },
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/11/jdk/x64/windows/OpenJDK11U-jdk_x64_windows_openj9_$matchMajor_$matchBuild_openj9$matchJvmver.zip",
         "extract_dir": "jdk-$matchMajor+$matchBuild"
     }
 }

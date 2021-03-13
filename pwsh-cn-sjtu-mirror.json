@@ -1,0 +1,38 @@
+{
+    "version": "7.1.2",
+    "description": "Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data. (China SJTU mirror)",
+    "homepage": "https://github.com/PowerShell/PowerShell",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://mirrors.sjtug.sjtu.edu.cn/github-release/PowerShell/PowerShell/releases/download/v7.1.2/PowerShell-7.1.2-win-x64.zip",
+            "hash": "d32856f3406670fa8c3903f33004810fe5c1e568210e8933a22017cee60d38c7"
+        },
+        "32bit": {
+            "url": "https://mirrors.sjtug.sjtu.edu.cn/github-release/PowerShell/PowerShell/releases/download/v7.1.2/PowerShell-7.1.2-win-x86.zip",
+            "hash": "63b96dfa3e31b6d885ac21b8df427f1cd2cd747916db5873a120855f1829dc81"
+        }
+    },
+    "bin": "pwsh.exe",
+    "shortcuts": [
+        [
+            "pwsh.exe",
+            "PowerShell Core"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://mirrors.sjtug.sjtu.edu.cn/github-release/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-x64.zip"
+            },
+            "32bit": {
+                "url": "https://mirrors.sjtug.sjtu.edu.cn/github-release/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-x86.zip"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/PowerShell/PowerShell/releases/tag/v$version/",
+            "regex": "$basename\\s*<ul>\\s*<li>$sha256"
+        }
+    }
+}

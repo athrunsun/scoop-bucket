@@ -1,5 +1,5 @@
 {
-    "description": "AdoptOpenJDK with Oracle HotSpot JVM, China mirror",
+    "description": "AdoptOpenJDK with Oracle HotSpot JVM, China TUNA mirror",
     "homepage": "https://adoptopenjdk.net",
     "version": "11.0.10-9",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0",

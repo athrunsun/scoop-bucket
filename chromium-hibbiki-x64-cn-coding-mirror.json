@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/Hibbiki/chromium-win64",
     "description": "Chromium for Windows x64, built by Hibbiki. This will download from coding.net mirror (for mainland China users).",
-    "version": "89.0.4389.82-r843830",
-    "url": "https://okampfer.coding.net/p/chromium-hibbiki-mirror/d/chromium-hibbiki-mirror/git/raw/master/mini_installer_89.0.4389.82-r843830_x64.nosync.exe#/dl.7z",
-    "hash": "17fed320d0702dd8e484f14223f8db30b4274455ccb3cd597402eadd18c40268",
+    "version": "89.0.4389.90-r843830",
+    "url": "https://okampfer.coding.net/p/chromium-hibbiki-mirror/d/chromium-hibbiki-mirror/git/raw/master/mini_installer_89.0.4389.90-r843830_x64.nosync.exe#/dl.7z",
+    "hash": "7f435d69aca43b1e62718cc91eae8036a4e834f67ada84b637f61fa7515b9a90",
     "installer": {
         "script": [
             "$output = 7z x $dir\\chrome.7z \"-o$dir\"",

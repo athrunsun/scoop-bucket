@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/PowerShell/PowerShell",
     "description": "PowerShell for every system",
-    "version": "6.2.4",
+    "version": "7.1.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v6.2.4/PowerShell-6.2.4-win-x64.zip",
-            "hash": "54af157b57c83731907460f3e24ac60852e7f6a685a748cac8717f3ba18188b6"
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.3/PowerShell-7.1.3-win-x64.zip",
+            "hash": "47475f1d4015704f3fb5f6d2cf61196d121aba60c19592b04be818317ce01039"
         },
         "32bit": {
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v6.2.4/PowerShell-6.2.4-win-x86.zip",
-            "hash": "fff26e8a84a74d0af2776e5ffa97c77735f5fc0fd1b219ea8386153affb2a7bb"
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.3/PowerShell-7.1.3-win-x86.zip",
+            "hash": "ecfd51545084d9b791874062c39eb0c7c7dd2991265ee7f4dc5064995a614e6c"
         }
     },
     "bin": "pwsh.exe",

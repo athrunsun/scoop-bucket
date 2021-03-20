@@ -29,10 +29,6 @@
             "32bit": {
                 "url": "https://mirrors.sjtug.sjtu.edu.cn/github-release/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-x86.zip"
             }
-        },
-        "hash": {
-            "url": "https://github.com/PowerShell/PowerShell/releases/tag/v$version/",
-            "regex": "$basename\\s*<ul>\\s*<li>$sha256"
         }
     }
 }

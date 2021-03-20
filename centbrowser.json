@@ -5,11 +5,11 @@
     "version": "4.3.9.226",
     "architecture": {
         "64bit": {
-            "url": "http://static.centbrowser.com/installer_64/centbrowser_4.3.9.226_x64.exe#/dl.7z",
+            "url": "http://static.centbrowser.com/win_stable/4.3.9.226/centbrowser_4.3.9.226_x64.exe#/dl.7z",
             "hash": "9fd3a9cce6dde0b72d56aace359c9073e6267e09c52bcccb99ff27cb6ac9c40a"
         },
         "32bit": {
-            "url": "http://static.centbrowser.com/installer_32/centbrowser_4.3.9.226.exe#/dl.7z",
+            "url": "http://static.centbrowser.com/win_stable/4.3.9.226/centbrowser_4.3.9.226.exe#/dl.7z",
             "hash": "944e001354d22f015159fec9b50aface73803f66bfb1adcb2cb34c28a2a0b46f"
         }
     },
@@ -42,10 +42,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://static.centbrowser.com/installer_64/centbrowser_$version_x64.exe#/dl.7z"
+                "url": "http://static.centbrowser.com/win_stable/$version/centbrowser_$version_x64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "http://static.centbrowser.com/installer_32/centbrowser_$version.exe#/dl.7z"
+                "url": "http://static.centbrowser.com/win_stable/$version/centbrowser_$version.exe#/dl.7z"
             }
         }
     }

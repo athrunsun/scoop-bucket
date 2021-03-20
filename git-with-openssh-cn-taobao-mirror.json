@@ -55,10 +55,6 @@
             "32bit": {
                 "url": "https://npm.taobao.org/mirrors/git-for-windows/v$version/PortableGit-$matchVer-32-bit.7z.exe#/dl.7z"
             }
-        },
-        "hash": {
-            "url": "https://github.com/git-for-windows/git/releases/latest",
-            "regex": "<td>$basename</td>\\s*<td>$sha256</td>"
         }
     }
 }

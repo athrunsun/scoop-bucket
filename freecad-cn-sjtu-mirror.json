@@ -34,10 +34,6 @@
                 "url": "https://mirror.sjtu.edu.cn/github-release/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x32-portable.7z"
             }
         },
-        "hash": {
-            "url": "$url-SHA256.txt",
-            "regex": "(?sm):\\s+([a-fA-F\\d\\s]+)CertUtil"
-        },
         "extract_dir": "conda-$version"
     }
 }

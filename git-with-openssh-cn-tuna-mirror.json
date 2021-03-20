@@ -55,10 +55,6 @@
             "32bit": {
                 "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git/Git%20for%20Windows%20$version/PortableGit-$version-32-bit.7z.exe#/dl.7z"
             }
-        },
-        "hash": {
-            "url": "https://github.com/git-for-windows/git/releases/latest",
-            "regex": "<td>$basename</td>\\s*<td>$sha256</td>"
         }
     }
 }

@@ -1,7 +1,7 @@
 {
     "version": "2.31.0",
     "homepage": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git",
-    "description": "Distributed version control system. Will download from China TUNA mirror.",
+    "description": "Distributed version control system. China TUNA mirror.",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {

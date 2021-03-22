@@ -2,7 +2,7 @@
     "homepage": "https://atom.io",
     "version": "1.55.0",
     "license": "MIT",
-    "description": "The hackable text editor.",
+    "description": "The hackable text editor. China taobao mirror.",
     "notes": [
         "Portable mode documentation:",
         "https://flight-manual.atom.io/getting-started/sections/installing-atom/#portable-mode",
@@ -11,7 +11,7 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/atom/atom/releases/download/v1.55.0/atom-x64-windows.zip",
+            "url": "https://npm.taobao.org/mirrors/atom/1.55.0/atom-x64-windows.zip",
             "hash": "f584788888933aa8d4cd499bd6cbd5a663f4fbf6b7b153310bb6bb9980c1e953",
             "bin": [
                 "Atom x64\\resources\\cli\\atom.cmd",
@@ -25,7 +25,7 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/atom/atom/releases/download/v1.55.0/atom-windows.zip",
+            "url": "https://npm.taobao.org/mirrors/atom/1.55.0/atom-windows.zip",
             "hash": "721ce45d5e55ee52b9ef5a62ba1344e515d7b43c142c592b79344220173e278e",
             "bin": [
                 "Atom\\resources\\cli\\atom.cmd",
@@ -55,10 +55,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/atom/atom/releases/download/v$version/atom-x64-windows.zip"
+                "url": "https://npm.taobao.org/mirrors/atom/$version/atom-x64-windows.zip"
             },
             "32bit": {
-                "url": "https://github.com/atom/atom/releases/download/v$version/atom-windows.zip"
+                "url": "https://npm.taobao.org/mirrors/atom/$version/atom-windows.zip"
             }
         }
     }

@@ -1,7 +1,7 @@
 {
     "version": "26.1.1",
     "description": "Video recording and live streaming software (China BFSU mirror)",
-    "homepage": "https://mirrors.bfsu.edu.cn/github-release/obsproject/obs-studio",
+    "homepage": "https://obsproject.com",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {

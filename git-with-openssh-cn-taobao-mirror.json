@@ -1,6 +1,6 @@
 {
     "version": "2.31.0.windows.1",
-    "homepage": "https://npm.taobao.org/mirrors/git-for-windows",
+    "homepage": "https://github.com/git-for-windows/git",
     "description": "Distributed version control system. China Taobao mirror.",
     "license": "GPL-2.0-only",
     "architecture": {

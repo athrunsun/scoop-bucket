@@ -11,6 +11,16 @@
         "From \"$env:USERPROFILE\\.vscode\\extensions\" to \"$env:USERPROFILE\\scoop\\persist\\vscode-portable\\data\\extensions\"",
         "From \"$env:APPDATA\\Code\" to \"$env:USERPROFILE\\scoop\\persist\\vscode-portable\\data\\user-data\""
     ],
+    "architecture": {
+        "64bit": {
+            "url": "https://update.code.visualstudio.com/1.55.0/win32-x64-archive/stable#/dl.7z",
+            "hash": "b48b02458796c2547da309667e922d62229db899a391745f82dec471557b1641"
+        },
+        "32bit": {
+            "url": "https://update.code.visualstudio.com/1.55.0/win32-archive/stable#/dl.7z",
+            "hash": "710201909d4f6885498ed074ea7574c9861845958ce39c7f3f9ec2d08950b013"
+        }
+    },
     "bin": [
         [
             "bin\\code.cmd",
@@ -25,34 +35,16 @@
     ],
     "persist": "data",
     "checkver": {
-        "url": "https://code.visualstudio.com/sha?build=stable",
-        "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].name"
-    },
-    "architecture": {
-        "64bit": {
-            "url": "https://vscode-update.azurewebsites.net/1.55.0/win32-x64-archive/stable#/dl.7z",
-            "hash": "b48b02458796c2547da309667e922d62229db899a391745f82dec471557b1641"
-        },
-        "32bit": {
-            "url": "https://vscode-update.azurewebsites.net/1.55.0/win32-archive/stable#/dl.7z",
-            "hash": "710201909d4f6885498ed074ea7574c9861845958ce39c7f3f9ec2d08950b013"
-        }
+        "url": "https://update.code.visualstudio.com/api/update/win32-x64-archive/stable/VERSION",
+        "jp": "$.name"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://vscode-update.azurewebsites.net/$version/win32-x64-archive/stable#/dl.7z",
-                "hash": {
-                    "url": "https://code.visualstudio.com/sha?build=stable",
-                    "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
-                }
+                "url": "https://update.code.visualstudio.com/$version/win32-x64-archive/stable#/dl.7z"
             },
             "32bit": {
-                "url": "https://vscode-update.azurewebsites.net/$version/win32-archive/stable#/dl.7z",
-                "hash": {
-                    "url": "https://code.visualstudio.com/sha?build=stable",
-                    "jp": "$.products[?(@.platform.os == 'win32-archive')].sha256hash"
-                }
+                "url": "https://update.code.visualstudio.com/$version/win32-archive/stable#/dl.7z"
             }
         }
     }

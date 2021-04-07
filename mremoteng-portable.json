@@ -12,6 +12,12 @@
             "mRemoteNG"
         ]
     ],
+    "persist": [
+        "confCons.xml",
+        "extApps.xml",
+        "mRemoteNG.settings",
+        "pnlLayout.xml"
+    ],
     "checkver": {
         "github": "https://github.com/mRemoteNG/mRemoteNG",
         "regex": "mRemoteNG-Portable-([\\d.]+)\\.zip"

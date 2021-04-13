@@ -1,6 +1,6 @@
 {
     "homepage": "https://atom.io",
-    "version": "1.55.0",
+    "version": "1.56.0",
     "license": "MIT",
     "description": "The hackable text editor. China taobao mirror.",
     "notes": [
@@ -11,8 +11,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://npm.taobao.org/mirrors/atom/1.55.0/atom-x64-windows.zip",
-            "hash": "f584788888933aa8d4cd499bd6cbd5a663f4fbf6b7b153310bb6bb9980c1e953",
+            "url": "https://npm.taobao.org/mirrors/atom/1.56.0/atom-x64-windows.zip",
+            "hash": "1ea8bbc5485f0eae496d03c473d32f95b45e49aa7c526cb030bbe1b54c9ffa05",
             "bin": [
                 "Atom x64\\resources\\cli\\atom.cmd",
                 "Atom x64\\resources\\app\\apm\\bin\\apm.cmd"
@@ -25,8 +25,8 @@
             ]
         },
         "32bit": {
-            "url": "https://npm.taobao.org/mirrors/atom/1.55.0/atom-windows.zip",
-            "hash": "721ce45d5e55ee52b9ef5a62ba1344e515d7b43c142c592b79344220173e278e",
+            "url": "https://npm.taobao.org/mirrors/atom/1.56.0/atom-windows.zip",
+            "hash": "767bba4eb79e54c87f1c42ecd018e13c1d11a0a1f88310076016ac7bb8d41597",
             "bin": [
                 "Atom\\resources\\cli\\atom.cmd",
                 "Atom\\resources\\app\\apm\\bin\\apm.cmd"

@@ -1,11 +1,11 @@
 {
     "description": "AdoptOpenJDK with Eclipse OpenJ9 JVM, China USTC mirror",
     "homepage": "https://adoptopenjdk.net",
-    "version": "11.0.10-9-0.24.0",
+    "version": "11.0.11-9-0.26.0",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0,EPL-2.0",
-    "url": "https://mirrors.ustc.edu.cn/github-release/AdoptOpenJDK/openjdk11-binaries/jdk-11.0.10+9_openj9-0.24.0/OpenJDK11U-jdk_x64_windows_openj9_11.0.10_9_openj9-0.24.0.zip",
-    "hash": "53df6ebb995736ed825dee8e7e07392bbc380d269085d0527775eeedbb4b7842",
-    "extract_dir": "jdk-11.0.10+9",
+    "url": "https://mirrors.ustc.edu.cn/github-release/AdoptOpenJDK/openjdk11-binaries/jdk-11.0.11+9_openj9-0.26.0/OpenJDK11U-jdk_x64_windows_openj9_11.0.11_9_openj9-0.26.0.zip",
+    "hash": "e566e899150eee684e26282c341d91cda34417b3b579a26fa8ccd7fd3780e430",
+    "extract_dir": "jdk-11.0.11+9",
     "env_add_path": "bin",
     "env_set": {
         "JAVA_HOME": "$dir"

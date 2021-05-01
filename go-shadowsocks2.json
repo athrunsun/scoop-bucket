@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/shadowsocks/go-shadowsocks2",
     "description": "Next-generation Shadowsocks in Go",
-    "version": "0.1.4",
-    "url": "https://github.com/shadowsocks/go-shadowsocks2/releases/download/v0.1.4/shadowsocks2-win64.zip",
-    "hash": "3dc34f8d33a8b324c561eeb607c0f64bf94c7196c47268745854ad19aa9c190e",
+    "version": "0.1.5",
+    "url": "https://github.com/shadowsocks/go-shadowsocks2/releases/download/v0.1.5/shadowsocks2-win64.zip",
+    "hash": "18fe9f6a0dc30a31177270cc1183c62a7c4ce777c05d29cfa09063207f852aa1",
     "bin": [
         [
             "shadowsocks2-win64.exe",

@@ -1,0 +1,17 @@
+{
+    "version": "1.8.1.210430",
+    "description": "SQL client and admin tool for popular databases (portable). China mirror.",
+    "homepage": "https://www.datatable.online",
+    "url": "https://d4.injdk.cn/dbkangaroo/v1.8.1.210430/kangaroo-1.8.1.210430-AMD64.7z",
+    "hash": "5c269bd948bd8d675ae09ca1ae3c663fb80908d72c31127c38fcc7917662d8fb",
+    "bin": [
+        ["bin\\kangaroo.exe", "kangaroo"]
+    ],
+    "checkver": {
+        "url": "https://www.datatable.online",
+        "regex": "Download Kangaroo v([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url": "https://d4.injdk.cn/dbkangaroo/v$version/kangaroo-$version-AMD64.7z"
+    }
+}

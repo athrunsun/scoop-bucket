@@ -6,10 +6,6 @@
     "url": "https://mirrors.ustc.edu.cn/github-release/AdoptOpenJDK/openjdk11-binaries/jdk-11.0.11+9_openj9-0.26.0/OpenJDK11U-jdk_x64_windows_openj9_11.0.11_9_openj9-0.26.0.zip",
     "hash": "e566e899150eee684e26282c341d91cda34417b3b579a26fa8ccd7fd3780e430",
     "extract_dir": "jdk-11.0.11+9",
-    "env_add_path": "bin",
-    "env_set": {
-        "JAVA_HOME": "$dir"
-    },
     "checkver": {
         "url": "https://api.adoptopenjdk.net/v3/assets/version/%5B8%2C%29?release_type=ga&lts=true&jvm_impl=openj9&heap_size=normal&os=windows&architecture=x64&image_type=jdk&project=jdk&vendor=adoptopenjdk&page_size=1&sort_order=DESC",
         "jp": "$..binaries[0].package.link",

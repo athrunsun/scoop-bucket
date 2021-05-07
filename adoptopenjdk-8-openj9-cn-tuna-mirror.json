@@ -14,10 +14,6 @@
         }
     },
     "extract_dir": "jdk8u292-b10",
-    "env_add_path": "bin",
-    "env_set": {
-        "JAVA_HOME": "$dir"
-    },
     "checkver": {
         "url": "https://api.adoptopenjdk.net/v3/assets/feature_releases/8/ga?jvm_impl=openj9&heap_size=normal&os=windows&architecture=x64&image_type=jdk&project=jdk&vendor=adoptopenjdk&page_size=1&sort_order=DESC",
         "jp": "$..binaries[0].package.link",

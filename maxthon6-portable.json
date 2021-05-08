@@ -2,9 +2,9 @@
     "homepage": "https://www.maxthon.cn",
     "description": "Maxthon Browser 6",
     "notes": "This is the portable version, user data directory is created under installation folder.",
-    "version": "6.1.1.1000",
-    "url": "https://dl.maxthon.cn/mx6/maxthon_portable_6.1.1.1000_x64.zip",
-    "hash": "c8418aff9cfe2e57162dfbbcd70f8ea694d4893aeab8a469efd6331418bd68a9",
+    "version": "6.1.2.1000",
+    "url": "https://dl.maxthon.cn/mx6/maxthon_portable_6.1.2.1000_x64.zip",
+    "hash": "5ab753ba441fbc0bed068599c5a38535a123174e61bae0ce15d659be84198760",
     "extract_dir": "MaxthonPortable",
     "bin": [
         [

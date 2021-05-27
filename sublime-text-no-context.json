@@ -1,0 +1,43 @@
+{
+    "version": "4-4107",
+    "description": "A sophisticated text editor for code, markup and prose",
+    "homepage": "https://www.sublimetext.com",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://www.sublimetext.com/eula"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download.sublimetext.com/sublime_text_build_4107_x64.zip",
+            "hash": "5cca7325f109cc321b15f74f277e4909b9664d87687b6c5adaa706e14dc90447"
+        },
+        "32bit": {
+            "url": "https://download.sublimetext.com/sublime_text_build_4107.zip",
+            "hash": "382b2a2034a8cb70fb0d0d91fb986799c3fdd3af0f19a9169618b0199a9a153c"
+        }
+    },
+    "bin": "subl.exe",
+    "shortcuts": [
+        [
+            "sublime_text.exe",
+            "Sublime Text 4"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://www.sublimetext.com/updates/4/stable_update_check",
+        "jsonpath": "$.latest_version",
+        "regex": "((\\d)\\d+)",
+        "replace": "$2-$1"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.sublimetext.com/sublime_text_build_$preReleaseVersion_x64.zip"
+            },
+            "32bit": {
+                "url": "https://download.sublimetext.com/sublime_text_build_$preReleaseVersion.zip"
+            }
+        }
+    }
+}

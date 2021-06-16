@@ -1,0 +1,34 @@
+{
+    "homepage": "https://github.com/ClashDotNetFramework/ClashDotNetFramework",
+    "description": "A .NET 5 based Clash GUI Proxy For Windows",
+    "version": "1.1.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.1.2/Clash.NET.1.1.2.x64.7z",
+            "hash": "bafa05c0eff04f8eb7160c15e9bafcafdf84caceaa751b0fea5038c1e8625df5"
+        },
+        "32bit": {
+            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.1.2/Clash.NET.1.1.2.x86.7z",
+            "hash": "8906bb8ebca63af23b75eaab07d8637b1b02a53c6a8ca15cbdeca06ed9d499d0"
+        }
+    },
+    "bin": [
+        [
+            "ClashDotNet.exe",
+            "clash-dotnet"
+        ]
+    ],
+    "extract_dir": "Clash .NET 1.1.2",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version.x64.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version.x86.7z"
+            }
+        },
+        "extract_dir": "Clash .NET $version"
+    }
+}

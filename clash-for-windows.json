@@ -18,6 +18,12 @@
             "clash-for-windows"
         ]
     ],
+    "shortcuts": [
+        [
+            "Clash for Windows.exe",
+            "Clash for Windows"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {

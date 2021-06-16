@@ -1,8 +1,0 @@
-{
-    "homepage": "https://github.com/v2ray/v2ray-core",
-    "description": "A platform for building proxies to bypass network restrictions.",
-    "version": "4.12.0",
-    "url": "https://github.com/v2ray/v2ray-core/releases/download/v4.12.0/v2ray-windows-64.zip",
-    "hash": "a9ea003fb8b530af365d7de8ddd83cd7d413de929879e229e641715bf3d4d02a",
-    "bin": "v2ray.exe"
-}

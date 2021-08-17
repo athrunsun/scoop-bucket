@@ -1,16 +1,16 @@
 {
-    "version": "2.32.0",
+    "version": "2.33.0",
     "homepage": "https://github.com/git-for-windows/git",
     "description": "Distributed version control system. China TUNA mirror.",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git/Git%20for%20Windows%202.32.0/PortableGit-2.32.0-64-bit.7z.exe#/dl.7z",
-            "hash": "cc561200eb89fdb19c75f901aea2740ffa57a627a31c1a6ef86a8d37e3186275"
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git/Git%20for%20Windows%202.33.0/PortableGit-2.33.0-64-bit.7z.exe#/dl.7z",
+            "hash": "12c10fad2c2db17d9867dbbacff1adc8be50868b793a73d451c2b878914bb32d"
         },
         "32bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git/Git%20for%20Windows%202.32.0/PortableGit-2.32.0-32-bit.7z.exe#/dl.7z",
-            "hash": "29495a17a58ee5fb0345a18d25bf410bd2d1ead86896ba9d2eecf0b690d78f0a"
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git/Git%20for%20Windows%202.33.0/PortableGit-2.33.0-32-bit.7z.exe#/dl.7z",
+            "hash": "c3b6f1a8f8c1b5be2175b7190d35926dce07a58294780291326a437ef0694676"
         }
     },
     "bin": [

@@ -1,15 +1,15 @@
 {
     "homepage": "https://www.python.org",
     "description": "Python embeddable.",
-    "version": "3.9.6",
+    "version": "3.9.7",
     "architecture": {
         "64bit": {
-            "url": "https://www.python.org/ftp/python/3.9.6/python-3.9.6-embed-amd64.zip",
-            "hash": "94f796d3c222e6bbd11b11dc8cec2249ef6a9408f06f82ee7877c793d45e22ea"
+            "url": "https://www.python.org/ftp/python/3.9.7/python-3.9.7-embed-amd64.zip",
+            "hash": "fa5484e6141cfa055b412bc229806a0129424da11a683ecc586697ec8e340e1d"
         },
         "32bit": {
-            "url": "https://www.python.org/ftp/python/3.9.6/python-3.9.6-embed-win32.zip",
-            "hash": "748300c06ce99a94a6dec2c463e1d1923f9c34991e5ca85e105253045489c7c2"
+            "url": "https://www.python.org/ftp/python/3.9.7/python-3.9.7-embed-win32.zip",
+            "hash": "d1ed0d49f4fa1fe4f0a7db32fcecf2401080cab3282f9c6fd41863bc3044f517"
         }
     },
     "bin": "python.exe",

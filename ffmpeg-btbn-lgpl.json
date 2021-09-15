@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/BtbN/FFmpeg-Builds",
     "description": "FFmpeg built by BtbN (LGPL).",
-    "version": "autobuild-2021-09-14-12-21",
-    "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2021-09-14-12-21/ffmpeg-n4.4-151-g5e61fce832-linux64-lgpl-4.4.tar.xz",
-    "hash": "185f30d95a384b42ff28a552f6012594f21f7657ca768bcd32d33b18a260e75f",
+    "version": "autobuild-2021-09-15-12-22",
+    "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2021-09-15-12-22/ffmpeg-n4.4-152-gdf288deb9b-linux64-lgpl-4.4.tar.xz",
+    "hash": "9e8f870846fc7c3d34332250c470e14944b4b0be17cd6e2a8727a8725fd3f574",
     "installer": {
         "script": [
             "$firstLevelFolderName = (Get-Childitem -path $dir -Depth 1 -Directory | Select-Object -Property Name)[0].Name",

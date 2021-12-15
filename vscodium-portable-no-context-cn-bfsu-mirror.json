@@ -1,16 +1,16 @@
 {
     "homepage": "https://github.com/VSCodium/vscodium",
-    "version": "1.63.0",
+    "version": "1.63.1",
     "license": "MIT",
     "description": "Binary releases of VS Code without MS branding/telemetry/licensing (Portable Edition w/o context menu installer). China BFSU mirror.",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.bfsu.edu.cn/github-release/VSCodium/vscodium/1.63.0/VSCodium-win32-x64-1.63.0.zip",
-            "hash": "6aeb7b592268f7a17d9a84d1c6dfbf732dbdbad87a2d5559ae49215aec90bc68"
+            "url": "https://mirrors.bfsu.edu.cn/github-release/VSCodium/vscodium/1.63.1/VSCodium-win32-x64-1.63.1.zip",
+            "hash": "5f2a780a23f0740a67c10ed2c5fb9139b83d0766e96c5e45ade16089e3af82aa"
         },
         "32bit": {
-            "url": "https://mirrors.bfsu.edu.cn/github-release/VSCodium/vscodium/1.63.0/VSCodium-win32-ia32-1.63.0.zip",
-            "hash": "34716f5efa2341437649a23847762e44d88760036172a71407ab8b5bbf5f716b"
+            "url": "https://mirrors.bfsu.edu.cn/github-release/VSCodium/vscodium/1.63.1/VSCodium-win32-ia32-1.63.1.zip",
+            "hash": "2684e310bf462d2d2a9674685a2317b61e0196c2fdd4981ddb62776c6d5bf36d"
         }
     },
     "bin": [

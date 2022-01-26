@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
-    "description": "A Windows/macOS GUI based on Clash",
+    "description": "A Windows/macOS/Linux GUI based on Clash and Electron",
     "version": "0.19.6",
     "architecture": {
         "64bit": {

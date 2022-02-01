@@ -1,6 +1,7 @@
 name: regular_build
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main

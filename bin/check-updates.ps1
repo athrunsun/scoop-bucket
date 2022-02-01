@@ -1,3 +1,9 @@
+Param
+(
+    [string] $WorkspacePath,
+    [string] $ScoopRepoPath
+)
+
 function isAutoUpdateAvailable {
     Param
     (
@@ -15,14 +21,14 @@ function isAutoUpdateAvailable {
     return $FALSE
 }
 
-$filenames = @(Get-ChildItem -Path $env:GITHUB_WORKSPACE -File -Force)
+$filenames = @(Get-ChildItem -Path $WorkspacePath -File -Force)
 
 foreach ($filename in $filenames) {
     if ($filename.Name.EndsWith(".json")) {
         $appName = $filename.Name.Split(".")[0]
         Write-Host "Checking update for $appName..."
 
-        $result = &"$env:SCOOP_REPO_PATH/bin/checkver.ps1" -App $appName -Dir . 6>&1
+        $result = &"$ScoopRepoPath/bin/checkver.ps1" -App $appName -Dir . 6>&1
 
         # For debugging on local machine
         # $result = &"D:/bedroom/local/app/scoop/apps/scoop/current/bin/checkver.ps1" -App $appName -Dir . 6>&1
@@ -30,7 +36,7 @@ foreach ($filename in $filenames) {
         if (isAutoUpdateAvailable $result) {
             $updateVersion = $result[1]
             Write-Host "Will update $appName to version $updateVersion..."
-            &"$env:SCOOP_REPO_PATH/bin/checkver.ps1" -App $appName -Dir . -u
+            &"$ScoopRepoPath/bin/checkver.ps1" -App $appName -Dir . -u
 
             # For debugging on local machine
             # &"D:/bedroom/local/app/scoop/apps/scoop/current/bin/checkver.ps1" -App $appName -Dir . -u

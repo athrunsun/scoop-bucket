@@ -26,7 +26,7 @@ jobs:
           fetch-depth: 0
       - name: Check for app updates
         shell: pwsh
-        run: . ./bin/check-updates.ps1 -WorkspacePath $env:GITHUB_WORKSPACE -ScoopRepoPath "$env.GITHUB_WORKSPACE/../$env:SCOOP_REPO_NAME"
+        run: . ./bin/check-updates.ps1 -WorkspacePath $env:GITHUB_WORKSPACE -ScoopRepoPath $env:GITHUB_WORKSPACE/../$env:SCOOP_REPO_NAME
       - name: git push
         shell: pwsh
         run: git push https://$env:TOKEN@github.com/athrunsun/scoop-bucket.git HEAD:master

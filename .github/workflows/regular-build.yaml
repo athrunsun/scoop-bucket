@@ -1,0 +1,33 @@
+name: regular_build
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 9 * * *"
+    - cron: "0 21 * * *"
+
+jobs:
+  update_all_app_manifests:
+    name: Update all app manifests
+    runs-on: windows-latest
+    env:
+      SCOOP_REPO_PATH: ${{ env.GITHUB_WORKSPACE }}/../scoop
+    steps:
+      - name: Clone scoop repo
+        shell: pwsh
+        run: git clone https://github.com/lukesampson/scoop.git $env:SCOOP_REPO_PATH 2>&1
+        working-directory: ../
+      - name: Clone my scoop bucket repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Checkout for app updates
+        shell: pwsh
+        run: . ./bin/check-updates.ps1
+      - name: git push
+        shell: pwsh
+        run: git push https://$env:TOKEN@github.com/athrunsun/scoop-bucket.git HEAD:master
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}

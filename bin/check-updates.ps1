@@ -4,6 +4,9 @@ Param
     [string] $ScoopRepoPath
 )
 
+echo "WorkspacePath:$WorkspacePath"
+echo "ScoopRepoPath:$ScoopRepoPath"
+
 function isAutoUpdateAvailable {
     Param
     (

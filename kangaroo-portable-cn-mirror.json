@@ -11,8 +11,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.datatable.online",
-        "regex": "Download Kangaroo v([\\d\\.]+)"
+        "github": "https://github.com/dbkangaroo/kangaroo"
     },
     "autoupdate": {
         "url": "https://d4.injdk.cn/dbkangaroo/v$version/kangaroo-$version-AMD64.7z"

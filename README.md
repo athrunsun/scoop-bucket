@@ -1,6 +1,6 @@
-# Personal scoop bucket [![Build Status](https://dev.azure.com/okampfer/scoop-bucket-build/_apis/build/status/scoop-bucket-build?branchName=master)](https://dev.azure.com/okampfer/scoop-bucket-build/_build/latest?definitionId=6&branchName=master)
+# Personal scoop bucket [![regular_build](https://github.com/athrunsun/scoop-bucket/actions/workflows/regular-build.yaml/badge.svg)](https://github.com/athrunsun/scoop-bucket/actions/workflows/regular-build.yaml)
 
-This [scoop](https://github.com/lukesampson/scoop) bucket contains apps that don't exist in the official main or extra buckets.
+This [scoop](https://github.com/ScoopInstaller/Scoop) bucket contains apps that don't exist in the official main or extra buckets.
 
 # How do I use this bucket?
 First add this bucket:

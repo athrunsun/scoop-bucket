@@ -1,16 +1,16 @@
 {
-    "version": "2.35.2.windows.1",
+    "version": "2.36.0.windows.1",
     "homepage": "https://github.com/git-for-windows/git",
     "description": "Distributed version control system. China Taobao mirror.",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://registry.npmmirror.com/-/binary/git-for-windows/v2.35.2.windows.1/PortableGit-2.35.2-64-bit.7z.exe#/dl.7z",
-            "hash": "f15eb0ba8866da555cb8090fbf5aa6862b2e57169d2aeb88ed9c50f59522c8fb"
+            "url": "https://registry.npmmirror.com/-/binary/git-for-windows/v2.36.0.windows.1/PortableGit-2.36.0-64-bit.7z.exe#/dl.7z",
+            "hash": "2257df41991f07c33176e2af8240181dab44cc713afe0fd95a0e12964fc46bda"
         },
         "32bit": {
-            "url": "https://registry.npmmirror.com/-/binary/git-for-windows/v2.35.2.windows.1/PortableGit-2.35.2-32-bit.7z.exe#/dl.7z",
-            "hash": "342690bfd53ed5aedca967f2897124f84b65f53bc42162cd775906935bd82131"
+            "url": "https://registry.npmmirror.com/-/binary/git-for-windows/v2.36.0.windows.1/PortableGit-2.36.0-32-bit.7z.exe#/dl.7z",
+            "hash": "27522261de1666e99d2c9708351de8e25638d6bc2f41e4d9a28bcede4c8eec75"
         }
     },
     "bin": [

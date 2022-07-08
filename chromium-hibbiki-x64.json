@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/Hibbiki/chromium-win64",
     "description": "Chromium for Windows x64, built by Hibbiki.",
-    "version": "102.0.5005.63-r992738",
-    "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v102.0.5005.63-r992738/chrome.nosync.7z",
-    "hash": "34450823c31ddd737ed982f1efb088f8f1e035f8563790a24bf3c047ac0a4a76",
+    "version": "103.0.5060.66-r1002911",
+    "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v103.0.5060.66-r1002911/chrome.nosync.7z",
+    "hash": "791329b9ea0cb0fab134aa26722bd8a289f9b2f8867b58f5f204ffb8407abb99",
     "installer": {
         "script": [
             "Get-ChildItem -Path \"$dir\\Chrome-bin\" | Move-Item -Destination \"$dir\"",

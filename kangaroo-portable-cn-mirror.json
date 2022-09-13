@@ -1,9 +1,9 @@
 {
-    "version": "1.97.1.220731",
+    "version": "1.98.1.220904",
     "description": "SQL client and admin tool for popular databases (portable). China mirror.",
     "homepage": "https://www.datatable.online",
-    "url": "https://d4.injdk.cn/dbkangaroo/v1.97.1.220731/kangaroo-1.97.1.220731-AMD64.7z",
-    "hash": "4d64ab67eeafaf8c7f511cdbb50e228a795081e8ce16987f270ef7ce0e726d33",
+    "url": "https://d4.injdk.cn/dbkangaroo/v1.98.1.220904/kangaroo-1.98.1.220904-AMD64.7z",
+    "hash": "2eb866162f4f5d9f1a30d76a4986a82d4c68218a055528ce58b812b4cb6e8ab6",
     "bin": [
         [
             "bin\\kangaroo.exe",

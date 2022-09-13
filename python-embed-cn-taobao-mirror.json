@@ -1,15 +1,15 @@
 {
     "homepage": "https://www.python.org",
     "description": "Python embeddable. China taobao mirror.",
-    "version": "3.10.6",
+    "version": "3.10.7",
     "architecture": {
         "64bit": {
-            "url": "https://npmmirror.com/mirrors/python/3.10.6/python-3.10.6-embed-amd64.zip",
-            "hash": "c5e3af5d40944d1dbb03740564378f168235e316a2b47c99dcfe46ac837db3d2"
+            "url": "https://npmmirror.com/mirrors/python/3.10.7/python-3.10.7-embed-amd64.zip",
+            "hash": "b885cbc7cc354afa31ac01d804c552ec9a91de855f46e44a805fc7e74a6bf089"
         },
         "32bit": {
-            "url": "https://npmmirror.com/mirrors/python/3.10.6/python-3.10.6-embed-win32.zip",
-            "hash": "c152491a2a2e9822d95c1c8be4e30a35c56703b417276e1696e7d34480fc6160"
+            "url": "https://npmmirror.com/mirrors/python/3.10.7/python-3.10.7-embed-win32.zip",
+            "hash": "d5eb57d67c8c74c1362e671933720151a62eaae4437e71dad7b06ddbcdbad0ff"
         }
     },
     "bin": "python.exe",

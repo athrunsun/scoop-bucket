@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
     "description": "A Windows/macOS/Linux GUI based on Clash and Electron",
-    "version": "0.20.3",
+    "version": "0.20.5",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.3/Clash.for.Windows-0.20.3-win.7z",
-            "hash": "94a84cc824ecb772987321682032c5e585f11233f00fc5ce6cbd30d58b3d736d"
+            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.5/Clash.for.Windows-0.20.5-win.7z",
+            "hash": "647b662ece8425efd6bf44ee05be923b89d4e1acbfdcd3918466f9c431bb3434"
         },
         "32bit": {
-            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.3/Clash.for.Windows-0.20.3-ia32-win.7z",
-            "hash": "c35c1148441bb1dd2e94378e3a3810df2c5325452f1fbb2535b5b0dfc811047e"
+            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.5/Clash.for.Windows-0.20.5-ia32-win.7z",
+            "hash": "a07e1969190e6f4bf48ce4d1bb67ed2047755b056b3fbf2dfb417af33e11a94a"
         }
     },
     "bin": [

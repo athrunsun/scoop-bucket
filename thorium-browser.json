@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/Alex313031/Thorium-Win",
     "description": "Chromium fork for Windows named after radioactive element No. 90",
-    "version": "108.0.5314.0",
-    "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M108.0.5314.0/Thorium_108.0.5314.0.zip",
-    "hash": "7220ae694b050841b9202ef2b84e86b139de8e7af52fde120075798be80b5ac9",
-    "extract_dir": "Thorium_108.0.5314.0/BIN",
+    "version": "109.0.5362.0",
+    "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M109.0.5362.0/Thorium_109.0.5362.0.zip",
+    "hash": "0cdde3ef5a4bc80a0f7922daa9deb7c008c234d6cb7c1190ff74ac78df94fe4c",
+    "extract_dir": "Thorium_109.0.5362.0/BIN",
     "bin": [
         [
             "thorium.exe",

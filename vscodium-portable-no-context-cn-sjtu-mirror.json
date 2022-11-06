@@ -1,16 +1,16 @@
 {
     "homepage": "https://github.com/VSCodium/vscodium",
-    "version": "1.63.2",
+    "version": "1.73.0.22306",
     "license": "MIT",
     "description": "Binary releases of VS Code without MS branding/telemetry/licensing (Portable Edition w/o context menu installer). China SJTU mirror.",
     "architecture": {
         "64bit": {
-            "url": "https://s3.jcloud.sjtu.edu.cn/899a892efef34b1b944a19981040f55b-oss01/github-release/VSCodium/vscodium/releases/download/1.63.2/VSCodium-win32-x64-1.63.2.zip",
-            "hash": "5699473b80a1a8eae9c022afd0282b702e6ee4706511cd34c5423c5187055995"
+            "url": "https://s3.jcloud.sjtu.edu.cn/899a892efef34b1b944a19981040f55b-oss01/github-release/VSCodium/vscodium/releases/download/1.73.0.22306/VSCodium-win32-x64-1.73.0.22306.zip",
+            "hash": "4df75060e67b9df7eb374956a42a1fb3f8966699979ff03b4c99d4628736bbc3"
         },
         "32bit": {
-            "url": "https://s3.jcloud.sjtu.edu.cn/899a892efef34b1b944a19981040f55b-oss01/github-release/VSCodium/vscodium/releases/download/1.63.2/VSCodium-win32-ia32-1.63.2.zip",
-            "hash": "bd2943ca79646eeda2e969d95afecf37916076e170c561522316c19894077474"
+            "url": "https://s3.jcloud.sjtu.edu.cn/899a892efef34b1b944a19981040f55b-oss01/github-release/VSCodium/vscodium/releases/download/1.73.0.22306/VSCodium-win32-ia32-1.73.0.22306.zip",
+            "hash": "eb3be067c3e5ede5d91fd332171848ff4f7b93bac732c56a9317f2ed6a3749f7"
         }
     },
     "bin": [

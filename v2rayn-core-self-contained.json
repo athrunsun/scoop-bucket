@@ -1,11 +1,11 @@
 {
     "version": "6.23",
-    "description": "GUI client based on v2ray core (v2ray-core executables included)",
+    "description": "GUI client based on v2ray core (v2ray-core executables and Microsoft .NET 6.0 desktop runtime included)",
     "homepage": "https://github.com/2dust/v2rayN",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/2dust/v2rayN/releases/download/6.23/v2rayN-With-Core.zip",
-    "hash": "ee1edc764b36c9577d9bcf887925704c6f8e4eb3106e48993e30268d5849795d",
-    "extract_dir": "v2rayN-With-Core",
+    "url": "https://github.com/2dust/v2rayN/releases/download/6.23/zz_v2rayN-With-Core-SelfContained.7z",
+    "hash": "196e2f20480a751cad9c00f0c67eb6e725340fef2caad262171ece7cb0bf6c82",
+    "extract_dir": "zz_v2rayN-With-Core-SelfContained",
     "pre_install": [
         "foreach ($name in @('guiNConfig.json', 'user-wininet.json')) {",
         "    if (!(Test-Path \"$persist_dir\\$name\")) {",
@@ -27,6 +27,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-With-Core.zip"
+        "url": "https://github.com/2dust/v2rayN/releases/download/$version/zz_v2rayN-With-Core-SelfContained.zip"
     }
 }

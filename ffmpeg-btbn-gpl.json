@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "https://api.github.com/repos/BtbN/FFmpeg-Builds/releases/latest",
-        "jp": "assets[8].browser_download_url",
+        "jp": "assets[20].browser_download_url",
         "re": "download/(?<version>autobuild-\\d+-\\d+-\\d+-\\d+-\\d+)/(?<filename>[a-z\\-\\d\\.]+)"
     },
     "autoupdate": {
